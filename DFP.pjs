@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{7FC735D4-60AE-469F-8A0F-491DC776D09E}">
+	<children>
+		<child name="DFP" key="{47E0193C-E399-43E1-BA71-18A722201965}" path="DFP.mds" />
+	</children>
+	<testItems key="{78C2BCC0-B97D-4288-8FBF-DFC620031903}">
+		<children>
+			<testItem key="{47E0193C-E399-43E1-BA71-18A722201965}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{3DBA4ABC-442B-4C2B-B3F3-3DDE77C76401}" />
+	<analysis key="{F9FF761B-DC5E-4051-AF2E-E9FA7EB4F4E7}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

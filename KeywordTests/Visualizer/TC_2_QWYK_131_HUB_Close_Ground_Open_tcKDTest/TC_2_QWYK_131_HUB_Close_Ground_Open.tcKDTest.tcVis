@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{18AF2D26-47C1-46D3-8713-82D0F1002031}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="10" kind="0" dateTime="45546.8451851852" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh5.labelHazardousCargo" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi18298279650921.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="12" kind="0" dateTime="45546.8452083333" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh5.sectionQwyk.formRequest.labelOverweight" objectLeft="1284" objectTop="928" objectRight="1356" objectBottom="950" clickPointX="1273" clickPointY="935" imageFileName="tcvi18298431250922.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="45546.8452314815" objectName="Aliases.browser.pageQuotationMagayaDigitalFreigh5.sectionQwyk.formRequest.labelFlatbedRequired" objectLeft="249" objectTop="959" objectRight="353" objectBottom="981" clickPointX="234" clickPointY="971" imageFileName="tcvi18298614050923.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

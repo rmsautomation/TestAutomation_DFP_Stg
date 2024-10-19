@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45583.8162278588"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{27D50822-1ABB-4D74-9555-825DF4C33499}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [TC_10_QWYK_162_HUB_Quotation___Requests___Change_Status_to_Close]"/>
+				<Prp name="relpath" type="S" value="10_18_2024_7_35 PM_22_87\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45583.8173873264"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B83E63D3-6C73-4C4C-8788-744CA16BCD32}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [TC_3_QWYK_132_HUB_Quotation__Create_Draft_Quotation__Partial_Load_Air_Draft]"/>
+				<Prp name="relpath" type="S" value="10_18_2024_7_37 PM_02_265\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45583.8214846065"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{50F4B16B-5C77-4140-9F58-68177B1C3C49}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [TC_3_QWYK_132_HUB_Quotation__Create_Draft_Quotation__Partial_Load_Air_Draft]"/>
+				<Prp name="relpath" type="S" value="10_18_2024_7_42 PM_56_270\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45583.8252104051"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FDD4DF52-A7F8-4C5B-A133-D9AA3E0BF4B7}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [TC_3_QWYK_132_HUB_Quotation__Create_Draft_Quotation__Partial_Load_Air_Draft]"/>
+				<Prp name="relpath" type="S" value="10_18_2024_7_48 PM_18_179\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45583.8820992014"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C05E9630-681F-4C92-BA33-7F4EAF802E81}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [TC_12_QWYK_146_Portal_Quotation_OCEAN_Partial_LCL_Buyer_Requested_status_]"/>
+				<Prp name="relpath" type="S" value="10_18_2024_9_10 PM_13_371\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

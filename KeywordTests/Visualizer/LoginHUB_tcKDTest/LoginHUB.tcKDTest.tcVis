@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{4ED58886-D55E-4D76-A5DC-13B0CF155C59}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45545.7087268519" objectName="Aliases.browser.pageSignInToMagayaDfp.formLogInToMagayaDfp.emailinputEmail" objectLeft="125" objectTop="521" objectRight="423" objectBottom="561" clickPointX="-1" clickPointY="-1" imageFileName="tcvi84780859255631.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45545.7087731482" objectName="Aliases.browser.pageSignInToMagayaDfp.formLogInToMagayaDfp.passwordboxPassword" objectLeft="125" objectTop="573" objectRight="423" objectBottom="613" clickPointX="291" clickPointY="594" imageFileName="tcvi8479601525564.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45545.7138310185" objectName="Aliases.browser.pageSignInToMagayaDfp.formLogInToMagayaDfp.buttonLogIn" objectLeft="64" objectTop="678" objectRight="444" objectBottom="748" clickPointX="251" clickPointY="711" imageFileName="tcvi8523284324320.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

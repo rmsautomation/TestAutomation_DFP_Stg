@@ -1,0 +1,31 @@
+﻿function checkElementCount() {
+    // Obtener el texto del elemento que contiene "1 - 25 of 29770"
+    var elementText = Aliases.browser.pageMagayaDigitalFreightPortalHu2.sectionQwyk.panel125Of29770.textContent;
+
+    // Extraer el número después de "of"
+    var matches = elementText.match(/of\s(\d+)/);
+    var totalCount = matches ? parseInt(matches[1]) : 0;
+
+    // Definir un array con las expresiones XPath para los elementos y sus nombres
+    var elements = [
+        { name: "panelAylinTestCount", xpath: "//div[contains(text(), 'Aylin_test')]" },
+        { name: "cellCount", xpath: "//td[div[contains(text(), 'Ocean')] and div/span[contains(text(), 'FCL')]]" },
+        { name: "textnodeBooked2Count", xpath: "//span[@class='overflow-wrap ng-star-inserted']//div//span[contains(text(), 'Booked')]" }
+    ];
+
+    // Ciclo para contar las ocurrencias de cada XPath y compararlas con el totalCount
+    for (var i = 0; i < elements.length; i++) {
+        var count = Aliases.browser.pageMagayaDigitalFreightPortalHu2.EvaluateXPath(elements[i].xpath).length;
+        Log.Message("Count for " + elements[i].name + ": " + count);
+
+        // Comparar cada conteo individualmente con totalCount
+        if (count === totalCount) {
+            Log.Message(elements[i].name + " count matches totalCount.");
+        } else {
+            Log.Error(elements[i].name + " count does NOT match totalCount.");
+        }
+    }
+
+    // Mostrar el número total extraído
+    Log.Message("Extracted total number: " + totalCount);
+}

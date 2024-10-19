@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{4EB747C7-6C63-4B84-87FA-6C2F34A4A82E}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45553.7007060185" objectName="Aliases.browser.pageMagaya3.formHowDoYouWantToShip.labelTruck" objectLeft="1375" objectTop="479" objectRight="1520" objectBottom="517" clickPointX="1434" clickPointY="499" imageFileName="tcvi77530370398680.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45553.7007407407" objectName="Aliases.browser.pageMagaya3.formHowDoYouWantToShip.labelFullFtl" objectLeft="1070" objectTop="521" objectRight="1219" objectBottom="559" clickPointX="1144" clickPointY="544" imageFileName="tcvi77530673498682.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

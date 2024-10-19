@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{DA46A148-2A02-45A8-856B-04D08BFAA2EB}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45545.9044675926" objectName="Aliases.browser.pageMagayaDigitalFreightPortalHu.headerHubheader.textnodeHubnavbar.textnodeHubnavbarprofileitem.buttonHubnavbarprofileitembutton" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi10170414020640.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45545.9044907407" objectName="Aliases.browser.pageMagayaDigitalFreightPortalHu.headerHubheader.textnodeHubnavbar.textnodeHubnavbarprofileitem.buttonHubnavbarlogoutlistbutton" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi10170568720641.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45545.9045486111" objectName="Aliases.browser.BrowserWindow" objectLeft="-8" objectTop="-8" objectRight="1928" objectBottom="1048" clickPointX="-1" clickPointY="-1" imageFileName="tcvi10171100020642.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

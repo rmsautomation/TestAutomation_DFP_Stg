@@ -3,7 +3,8 @@
   Delay(10000);
 
   var fso = Sys.OleObject("Scripting.FileSystemObject");
-  var downloadFolder = "C:\\Users\\aylin.rodriguez\\Downloads";
+  // Get the generic download folder path for the current user
+  var downloadFolder = Sys.Environment.GetFolderPath("Downloads");
 
   // Check if the Downloads folder exists
   if (!fso.FolderExists(downloadFolder)) {
@@ -52,8 +53,8 @@
 
       // Log the row count and check if it matches Project.Variables.number_quotes
       Log.Message("Number of rows in CSV: " + rowCount);
-      if ((rowCount-1) == Project.Variables.quote_number) {
-        Log.Message("The number of rows matches the expected value.Test PASSED");
+      if ((rowCount - 1) == Project.Variables.number_quotes) {
+        Log.Message("The number of rows matches the expected value. Test PASSED");
       } else {
         Log.Warning("The number of rows does not match the expected value. Test FAILED");
       }
@@ -61,5 +62,7 @@
     } else {
       Log.Error("The latest file is not a CSV.");
     }
+  } else {
+    Log.Error("No files found in the Downloads folder.");
   }
 }

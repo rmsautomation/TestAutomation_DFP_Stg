@@ -2817,13 +2817,7 @@
 										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=(//button[@class=&apos;dropdown-item&apos; and normalize-space(text())=&apos;Edit&apos;])[3]" />
-											</Selector>
-											<Selector>
-												<Value Value="xpath=//button[contains(text(),&apos;Edit&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="xpath=//button[@class=&apos;dropdown-item&apos; and normalize-space(text())=&apos;Edit&apos;]" />
+												<Value Value="xpath=(//button[@class=&apos;dropdown-item&apos; and normalize-space()=&apos;Edit&apos;])[last()]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -3934,6 +3928,15 @@
 											</Selector>
 											<Selector>
 												<Value Value="//ngb-datepicker-month/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEdit3" Key="{FB0F798A-B1C3-46CA-BB60-801000AB339A}">
+										<Image FileName="-870614813" Left="1672" Top="525" Right="1822" Bottom="555" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=&apos;ngb-tooltip-222&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -7755,6 +7758,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="linkQuo00629" Key="{6B8FEE9B-8639-434B-A0BA-54EC3DCF87D4}">
+										<Image FileName="-1829763442" Left="81" Top="641" Right="153" Bottom="658" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;QUO-00629&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_21-table&apos;]//tr[2]/td/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu4" Key="{A2E5C212-5BB0-4660-B8F8-3475160B4612}">
@@ -8502,6 +8520,7 @@
 					<Child Name="buttonDropdownbasic1" Owner="{AE87598B-55D0-4AA8-A0C0-D0E5F52FABD4}" />
 					<Child Name="buttonDropdownbasic12" Owner="{0D53CCEE-B044-444A-BE72-CC1EC7A0F496}">
 						<Child Name="buttonEdit" Owner="{A935AE1E-F053-4F2E-A23D-C4CD573DE054}" />
+						<Child Name="buttonEdit3" Owner="{FB0F798A-B1C3-46CA-BB60-801000AB339A}" />
 					</Child>
 					<Child Name="formCarrier" Owner="{20C699AD-1930-458F-B109-2C3D322E1507}">
 						<Child Name="buttonAddACharge" Owner="{B6987938-DD95-4BF5-9C91-6A6568DD05EF}" />
@@ -8996,6 +9015,7 @@
 			<Child Name="pageQuotationsMagayaDigitalFreig3" Owner="{24E7D99B-D428-4E31-9459-3755AC35824A}">
 				<Child Name="sectionAylin" Owner="{D699ECD2-6D00-41EC-9A6E-F51C30D06FB0}">
 					<Child Name="textnodeQuotations" Owner="{BD76BA74-C987-4892-AB07-E8069C2FB960}" />
+					<Child Name="linkQuo00629" Owner="{6B8FEE9B-8639-434B-A0BA-54EC3DCF87D4}" />
 				</Child>
 				<Child Name="textnodePrId22List" Owner="{7F677A01-F95A-4AD1-9C2C-11C93F73DE16}">
 					<Child Name="textnodeHubQuotationsStatusOpen" Owner="{979B7A71-0AF9-4E95-972E-8E7A1BD9DB16}">

@@ -1,12 +1,15 @@
 ﻿function Event_OnLogWarning(Sender, LogParams) {
-   var locked = aqString.Find(LogParams.Str, "disabled");
-   if (locked != -1)  {
-// If found, block the message
-    LogParams.Locked =true;
-  }
-   else {
-// Else, post the message
+    // Check if the warning message contains the word "disabled"
+    var locked = aqString.Find(LogParams.Str, "disabled");
+    // Also check if the warning message mentions "The browser is already running"
+    var browserRunning = aqString.Find(LogParams.Str, "The browser is already running");
 
-    LogParams.Locked =false;
+    // If the word "disabled" or "The browser is already running" is found
+    if (locked != -1 || browserRunning != -1) {
+        // Block the warning message from being logged
+        LogParams.Locked = true;
+    } else {
+        // Otherwise, allow the warning message to be logged
+        LogParams.Locked = false;
     }
 }

@@ -3,8 +3,10 @@
   Delay(10000);
 
   var fso = Sys.OleObject("Scripting.FileSystemObject");
-  // Get the generic download folder path for the current user
-  var downloadFolder = Sys.Environment.GetFolderPath("Downloads");
+
+  // Get the user's profile path and construct the Downloads folder path
+  var userProfilePath = aqEnvironment.GetEnvironmentVariable("USERPROFILE");
+  var downloadFolder = userProfilePath + "\\Downloads";
 
   // Check if the Downloads folder exists
   if (!fso.FolderExists(downloadFolder)) {
@@ -53,10 +55,10 @@
 
       // Log the row count and check if it matches Project.Variables.number_quotes
       Log.Message("Number of rows in CSV: " + rowCount);
-      if ((rowCount - 1) == Project.Variables.number_quotes) {
+      if ((rowCount - 1) == Project.Variables.quote_number) {
         Log.Message("The number of rows matches the expected value. Test PASSED");
       } else {
-        Log.Warning("The number of rows does not match the expected value. Test FAILED");
+        Log.Error("The number of rows does not match the expected value. Test FAILED");
       }
 
     } else {

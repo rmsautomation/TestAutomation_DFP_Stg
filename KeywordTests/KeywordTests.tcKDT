@@ -7,16 +7,16 @@
 					<child name="TC_1_QWYK_129_HUB_CreateFCLQuote_Open" key="{730FAB02-7835-4E34-880E-645F59C3C6F0}" path="TC_1_QWYK_129_HUB_CreateFCLQuote_Open.tcKDTest" />
 					<child name="TC_2_QWYK_131_HUB_Close_Ground_Open" key="{18AF2D26-47C1-46D3-8713-82D0F1002031}" path="TC_2_QWYK_131_HUB_Close_Ground_Open.tcKDTest" />
 					<child name="TC_3_QWYK_132_HUB_Draft_Air" key="{E8BFA9C1-1E97-4468-91AE-F59B8A11DA4B}" path="TC_3_QWYK_132_HUB_Draft_Air.tcKDTest" />
-					<child name="TC_4_QWYK_133_HUB_Quotation__Create_Open_Quotation__Partial_Load_Ocean__LCL_Open" key="{8EA8D539-E0BD-45BF-BDDB-99CE870F2A11}" path="TC_4_QWYK_133_HUB_Quotation__Create_Open_Quotation__Partial_Load_Ocean__LCL_Open.tcKDTest" />
-					<child name="TC_5_QWYK_143_HUB_Quotation__Create_Open_Quotation__Partial_Load_Truck_LTL" key="{A403A995-8EEA-4F08-9F50-64584A951137}" path="TC_5_QWYK_143_HUB_Quotation__Create_Open_Quotation__Partial_Load_Truck_LTL.tcKDTest" />
-					<child name="TC_6_QWYK_HUB_Quotation___Verify_Ocean_FCL_Quotation__Download__copy_and_delete_" key="{363C6EFB-1F56-4CB1-A2B0-A44EEFC68844}" path="TC_6_QWYK_HUB_Quotation___Verify_Ocean_FCL_Quotation__Download__copy_and_delete_.tcKDTest" />
-					<child name="TC_7_QWYK_139_HUB_Quotation___Edit_Offers_Air_Quotation" key="{85DB1E13-9A32-4718-83A9-41246C6176EC}" path="TC_7_QWYK_139_HUB_Quotation___Edit_Offers_Air_Quotation.tcKDTest" />
-					<child name="TC_8_QWYK_142_HUB_Quotation___Create_Offer_Ocean_LCL_Quotation" key="{32170393-9904-4363-A43D-F0B938E6D1E2}" path="TC_8_QWYK_142_HUB_Quotation___Create_Offer_Ocean_LCL_Quotation.tcKDTest" />
+					<child name="TC_4_QWYK_133_HUB_QuotationLCLOpen" key="{8EA8D539-E0BD-45BF-BDDB-99CE870F2A11}" path="TC_4_QWYK_133_HUB_QuotationLCLOpen.tcKDTest" />
+					<child name="TC_5_QWYK_143_HUB_QuotationOpen_LTL" key="{A403A995-8EEA-4F08-9F50-64584A951137}" path="TC_5_QWYK_143_HUB_QuotationOpen_LTL.tcKDTest" />
+					<child name="TC_6_QWYK_HUB_QuotationDownloadCopyDelete" key="{363C6EFB-1F56-4CB1-A2B0-A44EEFC68844}" path="TC_6_QWYK_HUB_QuotationDownloadCopyDelete.tcKDTest" />
+					<child name="TC_7_QWYK_139_HUB_QuotationEdit_Offers_Air_Quotation" key="{85DB1E13-9A32-4718-83A9-41246C6176EC}" path="TC_7_QWYK_139_HUB_QuotationEdit_Offers_Air_Quotation.tcKDTest" />
+					<child name="TC_8_QWYK_142_HUB_QuotationCreate_Offer_LCL_Quotation" key="{32170393-9904-4363-A43D-F0B938E6D1E2}" path="TC_8_QWYK_142_HUB_QuotationCreate_Offer_LCL_Quotation.tcKDTest" />
 					<child name="TC_9_QWYK_158_HUB_Quotation__Download_All_Quotations" key="{AEFFEFB3-EFFC-4F5D-9B24-3A3E7741FDB6}" path="TC_9_QWYK_158_HUB_Quotation__Download_All_Quotations.tcKDTest" />
 					<child name="TC_10_QWYK_162_HUB_Request_ChangeStatus_to_Close" key="{1F57ADB9-C34B-4DD6-A6D0-4D21FF764E12}" path="TC_10_QWYK_162_HUB_Request_ChangeStatus_to_Close.tcKDTest" />
 				</folder>
 				<folder name="Shipments">
-					<child name="TC_16_QWYK_283_Hub_Shipments__no_Magaya_Integration_" key="{472D9703-4AC1-428D-BFCD-54D1CE0AD18A}" path="TC_16_QWYK_283_Hub_Shipments__no_Magaya_Integration_.tcKDTest" />
+					<child name="TC_16_QWYK_283_Hub_ShipmentsMagaya_NOIntegration" key="{472D9703-4AC1-428D-BFCD-54D1CE0AD18A}" path="TC_16_QWYK_283_Hub_ShipmentsMagaya_NOIntegration.tcKDTest" />
 				</folder>
 				<folder name="Home">
 					<child name="TC_17_QWYK_280_Hub_Home" key="{C04A8737-EEF7-4268-8B6A-07DB5CF1A687}" path="TC_17_QWYK_280_Hub_Home.tcKDTest" />
@@ -28,9 +28,9 @@
 			<folder name="Portal">
 				<child name="TC_11_QWYK_145_Portal_QuotationFCL_Buyer_Booked" key="{DB659027-D1EC-4BC7-9C48-F7974326E62C}" path="TC_11_QWYK_145_Portal_QuotationFCL_Buyer_Booked.tcKDTest" />
 				<child name="TC_12_QWYK_146_Portal_QuotationLCL_Requested" key="{2DEFE87B-71D0-4222-A69B-EC1A20902903}" path="TC_12_QWYK_146_Portal_QuotationLCL_Requested.tcKDTest" />
-				<child name="TC_13_QWYK_149_Portal_Quotation___Truck_Full_FTL_Buyer__Requested_Status_" key="{B6EB28FE-C7B6-43E3-A08B-5209383F9AD3}" path="TC_13_QWYK_149_Portal_Quotation___Truck_Full_FTL_Buyer__Requested_Status_.tcKDTest" />
-				<child name="TC_14_QWYK_150_Portal_Quotation__Truck_Partial_LTL_Seller__Requested_Status_" key="{330BA411-AB18-4BA7-83D6-FE66D3B2B574}" path="TC_14_QWYK_150_Portal_Quotation__Truck_Partial_LTL_Seller__Requested_Status_.tcKDTest" />
-				<child name="TC_15_QWYK_152_Portal_Quotation___AIR_Buyer__Requested_Status_" key="{0D85D1AA-1262-4403-BFD8-E4B56FD84B0C}" path="TC_15_QWYK_152_Portal_Quotation___AIR_Buyer__Requested_Status_.tcKDTest" />
+				<child name="TC_13_QWYK_149_Portal_QuotationFTL_Buyer_Requested" key="{B6EB28FE-C7B6-43E3-A08B-5209383F9AD3}" path="TC_13_QWYK_149_Portal_QuotationFTL_Buyer_Requested.tcKDTest" />
+				<child name="TC_14_QWYK_150_Portal_Quotation_LTL_SellerRequested_Status" key="{330BA411-AB18-4BA7-83D6-FE66D3B2B574}" path="TC_14_QWYK_150_Portal_Quotation_LTL_SellerRequested_Status.tcKDTest" />
+				<child name="TC_15_QWYK_152_Portal_QuotationAIR_Buyer__Requested" key="{0D85D1AA-1262-4403-BFD8-E4B56FD84B0C}" path="TC_15_QWYK_152_Portal_QuotationAIR_Buyer__Requested.tcKDTest" />
 			</folder>
 		</folder>
 		<folder name="Utils">

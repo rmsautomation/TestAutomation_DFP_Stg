@@ -3932,7 +3932,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="buttonEdit3" Key="{FB0F798A-B1C3-46CA-BB60-801000AB339A}">
-										<Image FileName="-870614813" Left="1672" Top="525" Right="1822" Bottom="555" />
 										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
 										<Selectors>
 											<Selector>
@@ -5636,6 +5635,38 @@
 											</Selector>
 											<Selector>
 												<Value Value="//nav/li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionGoodAfternoonAylinStaging" Key="{4A072B0D-666F-4782-BA64-969C40AF9B4D}">
+										<Image FileName="1198399688" Left="220" Top="121" Right="1920" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Good afternoon Aylin Staging&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGoodAfternoonAylinStagin" Key="{E9DF6C1F-FC41-4E64-9693-536D97C1926F}">
+										<Image FileName="1198399688" Left="244" Top="205" Right="1879" Bottom="234" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h4[.=&apos;Good afternoon Aylin Staging&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;staticDashboard&apos;]//h4" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -7759,7 +7790,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="linkQuo00629" Key="{6B8FEE9B-8639-434B-A0BA-54EC3DCF87D4}">
-										<Image FileName="-1829763442" Left="81" Top="641" Right="153" Bottom="658" />
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
@@ -7879,6 +7909,38 @@
 											</Selector>
 											<Selector>
 												<Value Value="//li[2]/a/fa-icon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionGoodAfternoonAylin" Key="{3F368240-5594-4B22-A049-95725429E989}">
+										<Image FileName="-339688254" Left="50" Top="121" Right="1920" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Good afternoon, Aylin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubhomepagewelcometitle" Key="{EAD572CE-4C58-4EB1-99B9-3142B704B46F}">
+										<Image FileName="-339688254" Left="96" Top="198" Right="470" Bottom="236" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubHomepageWelcomeTitle" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4[contains(text(), &apos;Good afternoon, Aylin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4[contains(@class, &apos;ng-tns-c361-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h4" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -8091,6 +8153,115 @@
 										</Selectors>
 									</Child>
 								</Children>
+							</Child>
+							<Child Name="pageLogInMagayaDfp" Key="{E3C30D06-94DE-412B-A7DC-E352FC93E484}">
+								<Image FileName="-182984116" Left="0" Top="121" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magaya-prod.us.auth0.com/u/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionWelcome" Key="{68324B53-B0DD-4BB3-956D-6B533C80DFD0}">
+										<Image FileName="-182984116" Left="760" Top="311" Right="1160" Bottom="851" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;c05158eaf&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formEmailAddress" Key="{B8D80B66-93E1-4D85-A312-748E5CB0D32C}">
+										<Image FileName="-182984116" Left="800" Top="561" Right="1120" Bottom="792" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Email address&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;c9854873e&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailAddress" Key="{5DA80845-12A7-4BCC-AB18-999DCAC63223}">
+										<Image FileName="-182984116" Left="800" Top="561" Right="1120" Bottom="613" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Email address&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#username" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{F910E980-7584-41BB-8378-CE4518C92F32}">
+										<Image FileName="-1885850482" Left="801" Top="626" Right="1075" Bottom="678" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Password&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#password" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAction" Key="{BAC7EBBF-56C0-40D6-97F9-827FA5C3A95A}">
+										<Image FileName="-76375416" Left="800" Top="740" Right="1120" Bottom="792" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@name=&apos;action&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@value=&apos;default&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button[contains(@class, &apos;c0a486a03&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageCallback" Key="{15ED1B68-46A8-4BD7-9D84-2887A0DE4F35}">
+								<TypeInfo Item0="{C11A131B-E3F6-4A3B-8740-B4A0658324E1}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.next.qwykportals.com/callback*" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -8791,6 +8962,9 @@
 						<Child Name="linkShipments" Owner="{FE192897-BEDF-4C09-8BC8-C67E16F1D3EB}" />
 					</Child>
 				</Child>
+				<Child Name="sectionGoodAfternoonAylinStaging" Owner="{4A072B0D-666F-4782-BA64-969C40AF9B4D}">
+					<Child Name="textnodeGoodAfternoonAylinStagin" Owner="{E9DF6C1F-FC41-4E64-9693-536D97C1926F}" />
+				</Child>
 			</Child>
 			<Child Name="pageInbox" Owner="{9765DDDB-46AA-4F00-8C15-BEFC0AA77ADB}">
 				<Child Name="frameIfmail" Owner="{6B74226C-C9CB-4499-9101-590533F309C1}">
@@ -9032,6 +9206,9 @@
 						</Child>
 					</Child>
 				</Child>
+				<Child Name="sectionGoodAfternoonAylin" Owner="{3F368240-5594-4B22-A049-95725429E989}">
+					<Child Name="textnodeHubhomepagewelcometitle" Owner="{EAD572CE-4C58-4EB1-99B9-3142B704B46F}" />
+				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu6" Owner="{59F1418C-E2FC-48E2-936B-349855225F6D}">
 				<Child Name="sectionSalesRadar" Owner="{86563773-BA11-4C47-B35F-6B9AAC900ADE}">
@@ -9053,6 +9230,16 @@
 					<Child Name="panelSalesRadar" Owner="{3AB8638E-F765-41C3-8C39-9CC4E953DC1C}" />
 				</Child>
 			</Child>
+			<Child Name="pageLogInMagayaDfp" Owner="{E3C30D06-94DE-412B-A7DC-E352FC93E484}">
+				<Child Name="sectionWelcome" Owner="{68324B53-B0DD-4BB3-956D-6B533C80DFD0}">
+					<Child Name="formEmailAddress" Owner="{B8D80B66-93E1-4D85-A312-748E5CB0D32C}">
+						<Child Name="textboxEmailAddress" Owner="{5DA80845-12A7-4BCC-AB18-999DCAC63223}" />
+						<Child Name="passwordboxPassword" Owner="{F910E980-7584-41BB-8378-CE4518C92F32}" />
+						<Child Name="buttonAction" Owner="{BAC7EBBF-56C0-40D6-97F9-827FA5C3A95A}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageCallback" Owner="{15ED1B68-46A8-4BD7-9D84-2887A0DE4F35}" />
 		</Child>
 		<Child Name="explorer" Owner="{2B5F5DD0-6C6A-4C01-8392-67C38AED2AF7}">
 			<Child Name="wndShell_TrayWnd" Owner="{910C0DAB-BCCB-4418-ABBD-27987DB9B5B5}">

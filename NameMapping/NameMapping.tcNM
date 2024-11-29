@@ -38,7 +38,7 @@
 										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//section[contains(., &apos;Good afternoon, Aylin&apos;)]" />
+												<Value Value="xpath=//section[contains(., &apos;Aylin&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
@@ -5642,7 +5642,10 @@
 										<Image FileName="1198399688" Left="220" Top="121" Right="1920" Bottom="1040" />
 										<Selectors>
 											<Selector>
-												<Value Value="//section[contains(., &apos;Good afternoon Aylin Staging&apos;)]" />
+												<Value Value="xpath=//span[contains(text(), &apos;Aylin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//section[contains(., &apos;Aylin&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
@@ -5657,7 +5660,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//h4[.=&apos;Good afternoon Aylin Staging&apos;]" />
+												<Value Value="xpath=//span[contains(text(), &apos;Aylin&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//h4[.=&apos;Aylin&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//h4[contains(@class, &apos;ng-star-inserted&apos;)]" />
@@ -7916,7 +7922,7 @@
 										<Image FileName="-339688254" Left="50" Top="121" Right="1920" Bottom="1040" />
 										<Selectors>
 											<Selector>
-												<Value Value="//section[contains(., &apos;Good afternoon, Aylin&apos;)]" />
+												<Value Value="xpath=//section[contains(., &apos;Aylin&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
@@ -7934,7 +7940,7 @@
 												<Value Value="#hubHomepageWelcomeTitle" />
 											</Selector>
 											<Selector>
-												<Value Value="//h4[contains(text(), &apos;Good afternoon, Aylin&apos;)]" />
+												<Value Value="xpath=//h4[contains(text(), &apos;Aylin&apos;)]" />
 											</Selector>
 											<Selector>
 												<Value Value="//h4[contains(@class, &apos;ng-tns-c361-1&apos;)]" />
@@ -8436,6 +8442,66 @@
 											</Selector>
 											<Selector>
 												<Value Value="//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="chrome2" Key="{EEA9D02F-7D92-4AAB-9C4C-05F77DC027EA}">
+						<TypeInfo Item0="{3D64592C-DA67-4076-B435-EBDF368F740E}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="chrome" />
+							</Property>
+							<Property Name="Index">
+								<Value Value="1" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageQuotationsMagayaDigitalFreig" Key="{C363095E-39A1-453E-BA73-952442A7157A}">
+								<Image FileName="191456995" Left="8" Top="129" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{2EFC1068-7347-40A1-8873-4A816180FB49}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.next.qwykportals.com/quotations/list" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionQwyk" Key="{40CEE3C0-8393-4FF0-9B2E-5CAA010E9081}">
+										<Image FileName="191456995" Left="58" Top="129" Right="1911" Bottom="1436" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Qwyk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeRequest" Key="{2EE282C7-D10B-4042-B6CC-048D235BDE67}">
+										<Image FileName="191456995" Left="259" Top="575" Right="333" Bottom="597" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Request&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr/td/qwyk-quotation-status-badge/span[contains(@class, &apos;status-badge&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//table[@id=&apos;pr_id_1-table&apos;]//qwyk-quotation-status-badge/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-status-badge/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -9264,6 +9330,13 @@
 							<Child Name="textnodeAylinStaging2" Owner="{84EB5067-F1AD-4CCF-BA3D-23AB3D8E9F0D}" />
 						</Child>
 					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="chrome2" Owner="{EEA9D02F-7D92-4AAB-9C4C-05F77DC027EA}">
+			<Child Name="pageQuotationsMagayaDigitalFreig" Owner="{C363095E-39A1-453E-BA73-952442A7157A}">
+				<Child Name="sectionQwyk" Owner="{40CEE3C0-8393-4FF0-9B2E-5CAA010E9081}">
+					<Child Name="textnodeRequest" Owner="{2EE282C7-D10B-4042-B6CC-048D235BDE67}" />
 				</Child>
 			</Child>
 		</Child>

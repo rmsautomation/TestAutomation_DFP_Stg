@@ -92,6 +92,7 @@
 				<child name="LoginPortal" key="{2B350384-F770-4C33-86C7-6D418FB01030}" path="LoginPortal.tcKDTest" />
 				<child name="LogoutHUB" key="{DA46A148-2A02-45A8-856B-04D08BFAA2EB}" path="LogoutHUB.tcKDTest" />
 				<child name="LogoutPOrtal" key="{01D2BD45-4D0E-4889-8568-907B69F0354F}" path="LogoutPOrtal.tcKDTest" />
+				<child name="LoginHubNoInt" key="{4C3DF42D-922A-443B-AB4E-980B7C938922}" path="LoginHubNoInt.tcKDTest" />
 			</folder>
 		</folder>
 		<folder name="Hooks">

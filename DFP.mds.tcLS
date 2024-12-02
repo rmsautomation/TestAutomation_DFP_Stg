@@ -98,6 +98,9 @@
 					<Node name="var3">
 						<Prp name="name" type="S" value="notification"/>
 					</Node>
+					<Node name="var30">
+						<Prp name="name" type="S" value="Password1"/>
+					</Node>
 					<Node name="var4">
 						<Prp name="name" type="S" value="email_quote"/>
 					</Node>

@@ -4,7 +4,8 @@
 		<child name="OpenLatestPDF" key="{B2D533BF-C58F-4417-9067-D3F3D14F805E}" path="OpenLatestPDF.js" />
 		<child name="VerifyValueAfterAddCharge" key="{8F4E5A65-2C8D-45BD-AB95-AD35A5841157}" path="VerifyValueAfterAddCharge.js" />
 		<child name="OpenDownloadCSV" key="{8B5E3DB8-0BA4-4BC1-9F35-6C91BF6B2C7A}" path="OpenDownloadCSV.js" />
-		<child name="VerifyFilterShipmentsPortal" key="{B4A53D26-0AD6-4AD1-801D-FD0AFFB790FF}" path="VerifyFilterShipmentsPortal.js" />
+		<child name="VerifyFilterShipmentsPortalOld" key="{B4A53D26-0AD6-4AD1-801D-FD0AFFB790FF}" path="VerifyFilterShipmentsPortalOld.js" />
 		<child name="Event_OnLogWarning" key="{747AA951-16F5-4825-9D81-16C136E6A454}" path="Event_OnLogWarning.js" />
+		<child name="VerifyFilterShipmentsPortal" key="{136FE192-56C8-4D10-9D02-A2638473D4C9}" path="VerifyFilterShipmentsPortal.js" />
 	</children>
 </Root>

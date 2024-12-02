@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{75B12A25-067C-4502-8E60-BA88505D3215}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45628.6386342593" objectName="Aliases.chrome2.pageMagayaDigitalFreightPortalHu.sectionQwyk.formShipmentReference.panelAccountManager" objectLeft="983" objectTop="565" objectRight="1383" objectBottom="599" clickPointX="1038" clickPointY="584" imageFileName="tcvi-16339609174921.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45628.6386805556" objectName="Aliases.chrome2.pageMagayaDigitalFreightPortalHu.textbox4" objectLeft="1023" objectTop="608" objectRight="1367" objectBottom="644" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-16335203174922.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45628.6387152778" objectName="Aliases.chrome2.pageMagayaDigitalFreightPortalHu.textnodeYiselObiol.textnodeYiselObiol2.panel2" objectLeft="996" objectTop="658" objectRight="1016" objectBottom="678" clickPointX="1004" clickPointY="669" imageFileName="tcvi-16332750174923.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45628.6387268519" objectName="Aliases.chrome2.pageMagayaDigitalFreightPortalHu.sectionQwyk.formShipmentReference.buttonSearch" objectLeft="1726" objectTop="696" objectRight="1797" objectBottom="732" clickPointX="1759" clickPointY="719" imageFileName="tcvi-16330859174924.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

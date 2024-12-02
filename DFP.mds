@@ -20,9 +20,7 @@
 				<children />
 			</testItem>
 			<testItem name="ProjectTestItem3" key="{54465214-99BA-4128-AC98-4752BC5FA95C}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E8BFA9C1-1E97-4468-91AE-F59B8A11DA4B}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="email" type="1" localVarName="" value="aylinstaging" />
-				</testParameters>
+				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
@@ -42,17 +40,12 @@
 				<children />
 			</testItem>
 			<testItem name="ProjectTestItem7" key="{C31464D4-E0FC-4610-B6EA-FF6D65632504}" group="False" parallel="False" enabled="True" testMoniker="KDT\{85DB1E13-9A32-4718-83A9-41246C6176EC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="charge_value" type="3" localVarName="" varType="5" value="10" />
-				</testParameters>
+				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="ProjectTestItem8" key="{8D69B705-B202-4BCE-8F57-419D66BFDA62}" group="False" parallel="False" enabled="True" testMoniker="KDT\{32170393-9904-4363-A43D-F0B938E6D1E2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="rateID" type="1" localVarName="" value="AutomationTesting" />
-					<param1 name="email" type="1" localVarName="" value="aylinstaging" />
-				</testParameters>
+				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
@@ -67,35 +60,22 @@
 				<children />
 			</testItem>
 			<testItem name="ProjectTestItem11" key="{8EF3EC26-A7B4-4E06-A03C-BA29462B405E}" group="False" parallel="False" enabled="True" testMoniker="KDT\{DB659027-D1EC-4BC7-9C48-F7974326E62C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="email" type="1" localVarName="" value="aylinstaging" />
-					<param1 name="origin" type="1" localVarName="" value="Los Angeles" />
-					<param2 name="destination" type="1" localVarName="" value="Shanghai" />
-				</testParameters>
+				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="ProjectTestItem12" key="{6A75FE0C-BF31-4786-9EAE-C71EC6518B06}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2DEFE87B-71D0-4222-A69B-EC1A20902903}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="origin" type="1" localVarName="" value="Los Angeles" />
-					<param1 name="destination" type="1" localVarName="" value="Shanghai" />
-				</testParameters>
+				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="ProjectTestItem13" key="{8B845D8F-4EC0-475C-9A89-29DF5C9D1B88}" group="False" parallel="False" enabled="True" testMoniker="KDT\{B6EB28FE-C7B6-43E3-A08B-5209383F9AD3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="origin" type="1" localVarName="" value="Hefei" />
-					<param1 name="destination" type="1" localVarName="" value="Shanghai" />
-				</testParameters>
+				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="ProjectTestItem14" key="{4DFB9741-3830-4542-8837-FB15BBED2786}" group="False" parallel="False" enabled="True" testMoniker="KDT\{330BA411-AB18-4BA7-83D6-FE66D3B2B574}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters>
-					<param0 name="origin" type="1" localVarName="" value="Los Angeles" />
-					<param1 name="destination" type="1" localVarName="" value="Shanghai" />
-				</testParameters>
+				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
@@ -213,6 +193,9 @@
 				</Variable>
 				<Variable Name="new_offers" Type="String" Local="False">
 					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031003100330044003200460034004400380041004200460034004500430039003800430037004600310038003000300031004300370036003000420032003900300044004500310044003800380032003700310030003900350036003200390032004400390041003600330038004500420041003800300030003300460034004600390037003500350036003200420038003800440033003800" />
 				</Variable>
 			</Items>
 		</data>

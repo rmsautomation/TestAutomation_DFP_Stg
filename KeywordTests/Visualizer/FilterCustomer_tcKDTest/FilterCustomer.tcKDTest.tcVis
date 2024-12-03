@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{700865E7-5429-4392-AED6-DE68DA7086EC}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45628.5487037037" objectName="Aliases.chrome2.pageMagayaDigitalFreightPortalHu.sectionQwyk.formShipmentReference.textnodeCustomer" objectLeft="534" objectTop="378" objectRight="934" objectBottom="412" clickPointX="566" clickPointY="393" imageFileName="tcvi-2410921839320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45628.5487152778" objectName="Aliases.chrome2.pageMagayaDigitalFreightPortalHu.textnodePrId1List.textnodeCustomer1.textnodeCustomer12" objectLeft="547" objectTop="422" objectRight="619" objectBottom="439" clickPointX="594" clickPointY="431" imageFileName="tcvi-2410820339321.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45628.5487384259" objectName="Aliases.chrome2.pageMagayaDigitalFreightPortalHu.sectionQwyk.formShipmentReference.buttonSearch" objectLeft="1726" objectTop="750" objectRight="1797" objectBottom="786" clickPointX="1766" clickPointY="770" imageFileName="tcvi-2410646839322.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

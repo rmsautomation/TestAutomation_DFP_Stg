@@ -62,6 +62,22 @@
 					<child name="VerifyBookedQuoteHUB" key="{BE5C204D-FD5F-4EA1-A57D-141D56728D68}" path="VerifyBookedQuoteHUB.tcKDTest" />
 					<child name="VerifyRequestedQuoteHUB" key="{F8828B3B-E642-4C6E-81EE-7830D782BEEA}" path="VerifyRequestedQuoteHUB.tcKDTest" />
 				</folder>
+				<folder name="Filters">
+					<child name="FilterCompletedStatus" key="{BA7C6CF3-A7DD-4DAE-A150-E96443A62BDC}" path="FilterCompletedStatus.tcKDTest" />
+					<child name="FilterShipmentReference" key="{BD4B57E4-132C-4435-AD83-667724B3D4AE}" path="FilterShipmentReference.tcKDTest" />
+					<child name="FilterCustomer" key="{700865E7-5429-4392-AED6-DE68DA7086EC}" path="FilterCustomer.tcKDTest" />
+					<child name="FilterCustomerReference" key="{26645A5B-4CD2-470C-A77D-0BAF4166DE9B}" path="FilterCustomerReference.tcKDTest" />
+					<child name="FilterBookingDate" key="{4B9545A0-CBAC-4A12-B34A-8B87F58B550C}" path="FilterBookingDate.tcKDTest" />
+					<child name="FilterMilestoneConfirmed" key="{1235C91F-5BA4-4931-8C25-036BE0DFCA40}" path="FilterMilestoneConfirmed.tcKDTest" />
+					<child name="FilterMasterBL" key="{9EEACC26-0431-4DC6-A5A2-CA1447C2B9CD}" path="FilterMasterBL.tcKDTest" />
+					<child name="FilterHouseBL" key="{3424B218-7A20-44D5-AE23-A75C99F02C03}" path="FilterHouseBL.tcKDTest" />
+					<child name="FilterETD" key="{ABB259D8-EF6F-4590-B500-C11709ABB7FC}" path="FilterETD.tcKDTest" />
+					<child name="FilterETA" key="{01794136-8F35-417B-AAB4-4E4097B928E0}" path="FilterETA.tcKDTest" />
+					<child name="FilterAccountManager" key="{75B12A25-067C-4502-8E60-BA88505D3215}" path="FilterAccountManager.tcKDTest" />
+					<child name="FilterProduct" key="{75FA6CF0-763C-41E7-8DA9-B5143BF483D3}" path="FilterProduct.tcKDTest" />
+					<child name="FilterSort" key="{7A1C3171-8D91-4ADA-A6E7-A08EE7964D93}" path="FilterSort.tcKDTest" />
+					<child name="FilterVessel" key="{D79FD09A-CD22-4252-9BC9-F1447E466145}" path="FilterVessel.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="Portal">
 				<folder name="Quotation">
@@ -92,6 +108,7 @@
 				<child name="LoginPortal" key="{2B350384-F770-4C33-86C7-6D418FB01030}" path="LoginPortal.tcKDTest" />
 				<child name="LogoutHUB" key="{DA46A148-2A02-45A8-856B-04D08BFAA2EB}" path="LogoutHUB.tcKDTest" />
 				<child name="LogoutPOrtal" key="{01D2BD45-4D0E-4889-8568-907B69F0354F}" path="LogoutPOrtal.tcKDTest" />
+				<child name="LoginHubNoInt" key="{4C3DF42D-922A-443B-AB4E-980B7C938922}" path="LoginHubNoInt.tcKDTest" />
 			</folder>
 		</folder>
 		<folder name="Hooks">

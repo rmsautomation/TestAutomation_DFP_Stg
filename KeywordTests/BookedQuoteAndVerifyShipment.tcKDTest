@@ -37,6 +37,7 @@
 			</Operation>
 			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
 				<Data VariableType="2" VariableName="notificationsBeforeBooked">
+					<CommonData WaitTimeout="60000" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="NewValue" DefVarType="0" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageMagaya2.sectionMyPortal.textnode.link.contentText" />
 					</Parameters>

@@ -120,12 +120,12 @@ function checkHouseBL() {
 }
 
 function checkETD() {
-  var completedXPath = "//span[contains(normalize-space(text()), '11/01/2024')]";
-  checkFilter(completedXPath, "ETD 11/01/2024");
+  var completedXPath = "//span[contains(normalize-space(text()), '01/06/2025')]";
+  checkFilter(completedXPath, "ETD 01/06/2025");
 }
 function checkETA() {
-  var completedXPath = "//span[contains(normalize-space(text()), '10/30/2024')]";
-  checkFilter(completedXPath, "ETA 10/30/2024");
+  var completedXPath = "//span[contains(normalize-space(text()), '01/06/2025')]";
+  checkFilter(completedXPath, "ETA 01/06/2025");
 }
 
 function checkAIRProduct() {

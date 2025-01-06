@@ -3939,6 +3939,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="selectSelectMonth" Key="{5406BA2F-EF9E-4CDD-8200-CA9E760375CD}">
+										<Image FileName="454380698" Left="1305" Top="391" Right="1375" Bottom="419" />
+										<TypeInfo Item0="{529F1A6F-E852-4FDA-8BD1-C15026E1756B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@title=&apos;Select month&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel14" Key="{838A1B12-E8A7-4131-9E46-E0E3BAF1AF3B}">
+										<Image FileName="898579498" Left="1301" Top="451" Right="1331" Bottom="481" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div[2]/div[contains(@class, &apos;btn-light&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya" Key="{5B0E1FE1-A618-4740-933C-B8CDDB63F4B1}">
@@ -7715,6 +7733,135 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textbox" Key="{FB319195-DBA5-4FE0-98CA-5607E8C450E5}">
+										<Image FileName="-965313829" Left="85" Top="457" Right="523" Bottom="493" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-shipments-search-form//form//div[5]/p-calendar//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;ng-tns-c191-4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-calendar[@id=&apos;booked_at&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipments-search-form//form//div[5]/p-calendar//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button2025" Key="{E8522204-BAA9-481D-9186-BC49C0FEC40F}">
+										<Image FileName="615703963" Left="318" Top="515" Right="368" Bottom="561" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;2025&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-datepicker-year&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2024" Key="{78FC7997-84CE-41C6-A91B-4980EDBC2ED0}">
+										<Image FileName="251091437" Left="99" Top="638" Right="304" Bottom="674" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/span[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDec" Key="{0D6BB4FB-6814-463A-A3E3-92D8CFB9856A}">
+										<Image FileName="-1106287746" Left="372" Top="690" Right="509" Bottom="726" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Dec&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode5" Key="{DE94BA08-37EA-4F06-A75F-3F8630290CFB}">
+										<Image FileName="-413525495" Left="344" Top="627" Right="382" Bottom="665" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[5]/span[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[5]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox2" Key="{73132FDF-324B-4632-90DB-AABF8F518C13}">
+										<Image FileName="1165419954" Left="533" Top="538" Right="971" Bottom="574" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-shipments-search-form//form//div[10]/p-calendar//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;ng-tns-c191-5&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-calendar[@id=&apos;etd&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-shipments-search-form//form//div[10]/p-calendar//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2025" Key="{E512BB38-55FC-4258-87F7-1A3A7000B291}">
+										<Image FileName="-1669235875" Left="752" Top="719" Right="957" Bottom="755" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/span[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeJan" Key="{59BC448E-7AED-47B0-A511-23C25E10F49A}">
+										<Image FileName="-928174483" Left="547" Top="662" Right="684" Bottom="698" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Jan&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode6" Key="{E5AFA34E-0576-47E9-B5A5-238ED2932EC1}">
+										<Image FileName="-1325015643" Left="616" Top="760" Right="654" Bottom="798" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[2]/td[2]/span[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeApr" Key="{FC965F26-284D-41FD-9604-624BE6D16DEB}">
+										<Image FileName="-1661542176" Left="547" Top="698" Right="684" Bottom="734" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Apr&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode20" Key="{E90587FF-8A1E-4882-8B45-9E19A595AB33}">
+										<Image FileName="-1883923378" Left="909" Top="814" Right="947" Bottom="852" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;20&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[3]/td[7]/span[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu3" Key="{5B7C2F6A-D70A-432A-9263-DF5AE4A3EBDF}">
@@ -9286,6 +9433,78 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="button2025" Key="{BDE53D96-3B61-4BF4-A0AF-B5347B355AE4}">
+										<Image FileName="-297157282" Left="318" Top="515" Right="368" Bottom="561" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;2025&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;p-datepicker-year&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2024" Key="{2818FBC4-DF32-4829-87F9-D4A898146FD3}">
+										<Image FileName="1246796992" Left="99" Top="638" Right="304" Bottom="674" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/span[5]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2025" Key="{2EA345DA-789B-414C-B468-14086F229D5A}">
+										<Image FileName="-65583683" Left="304" Top="638" Right="509" Bottom="674" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/span[6]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeJan" Key="{A30198AC-47CD-4B5D-BC7F-90488B93201A}">
+										<Image FileName="-426760675" Left="99" Top="581" Right="236" Bottom="617" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Jan&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode62" Key="{EBE14ADE-C8B8-4D7E-AC23-006841143763}">
+										<Image FileName="-968315372" Left="168" Top="680" Right="206" Bottom="718" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//tr[2]/td[2]/span[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[2]/td[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeApr" Key="{D8643B59-82BC-456D-9038-9EA6D40E36FF}">
+										<Image FileName="-1564280597" Left="996" Top="698" Right="1133" Bottom="734" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Apr&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode20" Key="{EA129540-825A-4DD1-AAD6-D3645F73B691}">
+										<Image FileName="-1603297616" Left="1357" Top="814" Right="1395" Bottom="852" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;20&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//tr[3]/td[7]/span[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -9577,6 +9796,8 @@
 						<Child Name="panel12" Owner="{A0837FE7-C420-409D-9AEF-CE18CF313EAD}" />
 						<Child Name="calculation_drop" Owner="{3A8F57F1-E102-485F-B6BF-B139B95629F4}" />
 						<Child Name="panel13" Owner="{3D6B4DF6-71E9-490E-8225-F5B96F6D8360}" />
+						<Child Name="selectSelectMonth" Owner="{5406BA2F-EF9E-4CDD-8200-CA9E760375CD}" />
+						<Child Name="panel14" Owner="{838A1B12-E8A7-4131-9E46-E0E3BAF1AF3B}" />
 					</Child>
 					<Child Name="buttonCreateNewOffer" Owner="{382F6E48-5113-48DE-9CA6-2061F04B2934}" />
 				</Child>
@@ -9991,11 +10212,13 @@
 						<Child Name="vg2" Owner="{E26D1AE9-B6BE-457E-91FA-4B805249D4F6}" />
 						<Child Name="buttonShowLessFilters" Owner="{C313A497-FE6A-4118-8403-49DC6BB2EE3E}" />
 						<Child Name="buttonReset" Owner="{1AE77E71-8616-460B-9345-1B1F40FBC40C}" />
+						<Child Name="textbox" Owner="{FB319195-DBA5-4FE0-98CA-5607E8C450E5}" />
+						<Child Name="textbox2" Owner="{73132FDF-324B-4632-90DB-AABF8F518C13}" />
 					</Child>
 					<Child Name="panelAylinTest" Owner="{F0FE92B7-8592-4351-BE98-98D514B95DC9}" />
 					<Child Name="cell" Owner="{6FB1B3C3-902D-472F-B6FC-7F8F27FD2BD0}" />
 					<Child Name="textnodeBooked2" Owner="{AB2E8F82-2807-4331-A198-E8949591C024}" />
-					<Child Name="panel125Of29770" Owner="{52094AB6-4FEA-49A6-88CA-92AF4546F924}" />
+					<Child Name="panelFooter" Owner="{52094AB6-4FEA-49A6-88CA-92AF4546F924}" />
 					<Child Name="textnodeShipments" Owner="{EC4CA14A-79C6-414F-917C-DF1F27FFD708}" />
 					<Child Name="textnodePortalUsers" Owner="{C5BB3043-B07F-43D0-B135-D0F94267720C}" />
 					<Child Name="textnodeUserApprovals" Owner="{52158E37-1542-4607-804F-4747B9CC30CA}" />
@@ -10031,6 +10254,15 @@
 				<Child Name="textnodePrId6List" Owner="{2F9CB889-0D74-458E-996F-82D3C3856445}">
 					<Child Name="textnodeHubShipmentSearchFilters2" Owner="{0F9811CA-9B66-4CFB-B0AF-873DEDD0B30B}" />
 				</Child>
+				<Child Name="button2025" Owner="{E8522204-BAA9-481D-9186-BC49C0FEC40F}" />
+				<Child Name="textnode2024" Owner="{78FC7997-84CE-41C6-A91B-4980EDBC2ED0}" />
+				<Child Name="textnodeDec" Owner="{0D6BB4FB-6814-463A-A3E3-92D8CFB9856A}" />
+				<Child Name="textnode5" Owner="{DE94BA08-37EA-4F06-A75F-3F8630290CFB}" />
+				<Child Name="textnode2025" Owner="{E512BB38-55FC-4258-87F7-1A3A7000B291}" />
+				<Child Name="textnodeJan" Owner="{59BC448E-7AED-47B0-A511-23C25E10F49A}" />
+				<Child Name="textnode6" Owner="{E5AFA34E-0576-47E9-B5A5-238ED2932EC1}" />
+				<Child Name="textnodeApr" Owner="{FC965F26-284D-41FD-9604-624BE6D16DEB}" />
+				<Child Name="textnode20" Owner="{E90587FF-8A1E-4882-8B45-9E19A595AB33}" />
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu3" Owner="{5B7C2F6A-D70A-432A-9263-DF5AE4A3EBDF}">
 				<Child Name="sectionAylin" Owner="{B5BC12EC-B70D-4959-943B-FB863ACFCB21}">
@@ -10183,6 +10415,13 @@
 						<Child Name="panelBookingDate" Owner="{EAD81D16-66A1-4E8C-B307-A5A063ACC3C3}" />
 					</Child>
 				</Child>
+				<Child Name="button2025" Owner="{BDE53D96-3B61-4BF4-A0AF-B5347B355AE4}" />
+				<Child Name="textnode2024" Owner="{2818FBC4-DF32-4829-87F9-D4A898146FD3}" />
+				<Child Name="textnode2025" Owner="{2EA345DA-789B-414C-B468-14086F229D5A}" />
+				<Child Name="textnodeJan" Owner="{A30198AC-47CD-4B5D-BC7F-90488B93201A}" />
+				<Child Name="textnode62" Owner="{EBE14ADE-C8B8-4D7E-AC23-006841143763}" />
+				<Child Name="textnodeApr" Owner="{D8643B59-82BC-456D-9038-9EA6D40E36FF}" />
+				<Child Name="textnode20" Owner="{EA129540-825A-4DD1-AAD6-D3645F73B691}" />
 			</Child>
 		</Child>
 	</LogicalNodes>

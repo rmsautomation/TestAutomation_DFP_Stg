@@ -134,6 +134,9 @@
 										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//span[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//button[contains(text(), &apos;Log out&apos;)]" />
 											</Selector>
 											<Selector>
@@ -8181,6 +8184,72 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="headerHubheader" Key="{599A8B7B-100B-47DF-918F-4570615993E5}">
+										<Image FileName="130605343" Left="0" Top="139" Right="1920" Bottom="193" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubHeader" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;next&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;navbar&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHubnavbar" Key="{9533D154-733F-45C4-A015-5C162D809C9C}">
+										<Image FileName="130605343" Left="1763" Top="139" Right="1905" Bottom="193" />
+										<Selectors>
+											<Selector>
+												<Value Value="#hubNavbar" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;User: aylinrp1991@yopmail.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogOut" Key="{55FCBC53-645B-4285-8D26-2DCDB33167DB}">
+										<Image FileName="130605343" Left="1665" Top="348" Right="1899" Bottom="384" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_1_6&apos;]/div/a[contains(@class, &apos;p-menuitem-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_1_6&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;hubHeader&apos;]//ul/p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogOut" Key="{9CE8044A-CEA0-4423-827E-C582BB94B577}">
+										<Image FileName="130605343" Left="1709" Top="358" Right="1756" Bottom="375" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Log out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a//span[contains(@class, &apos;ng-tns-c1201608176-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_1_6&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-menu//ul/li[@id=&apos;pn_id_1_6&apos;]//a//span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu6" Key="{59F1418C-E2FC-48E2-936B-349855225F6D}">
@@ -10294,6 +10363,13 @@
 				</Child>
 				<Child Name="sectionGoodAfternoonAylin" Owner="{3F368240-5594-4B22-A049-95725429E989}">
 					<Child Name="textnodeHubhomepagewelcometitle" Owner="{EAD572CE-4C58-4EB1-99B9-3142B704B46F}" />
+				</Child>
+				<Child Name="headerHubheader" Owner="{599A8B7B-100B-47DF-918F-4570615993E5}">
+					<Child Name="textnodeHubnavbar" Owner="{9533D154-733F-45C4-A015-5C162D809C9C}">
+						<Child Name="linkLogOut" Owner="{55FCBC53-645B-4285-8D26-2DCDB33167DB}">
+							<Child Name="textnodeLogOut" Owner="{9CE8044A-CEA0-4423-827E-C582BB94B577}" />
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu6" Owner="{59F1418C-E2FC-48E2-936B-349855225F6D}">

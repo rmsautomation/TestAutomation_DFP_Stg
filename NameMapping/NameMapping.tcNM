@@ -1322,6 +1322,9 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//span[normalize-space(text()) = &apos;Agriculture (Fruits and Vegetables)&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//span[.=&apos;Agriculture (Fruits and Vegetables)&apos;]" />
 											</Selector>
 											<Selector>
@@ -4837,10 +4840,10 @@
 										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//input[@role=&apos;searchbox&apos;]" />
+												<Value Value="//input[@type=&apos;text&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//input[@type=&apos;text&apos;]" />
+												<Value Value="//input[@role=&apos;searchbox&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//input[contains(@class, &apos;p-element&apos;)]" />
@@ -5109,6 +5112,9 @@
 										<Image FileName="-1309007778" Left="778" Top="602" Right="1126" Bottom="640" />
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(normalize-space(text()), &apos;USD - United States Dollar&apos;)]" />
+											</Selector>
 											<Selector>
 												<Value Value="//div[contains(text(), &apos;USD - United States Dollar&apos;)]" />
 											</Selector>

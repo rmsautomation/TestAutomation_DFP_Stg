@@ -52,6 +52,23 @@
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageMagayaDigitalFreightPortalHu2.sectionQwyk.formShipmentReference.buttonShowMoreFilters;" />
 				</Data>
 			</Operation>
+			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
+				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+					<Root Type="1" Operator="0">
+						<Left DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.browser.pageMagayaDigitalFreightPortalHu2.sectionQwyk.formShipmentReference.buttonShowMoreFilters.Exists" />
+						<Right DefVarType="0" VarType="11" ValueType="7" ValueValue="True" />
+					</Root>
+				</Data>
+				<Children>
+					<Operation Type="{80DF6CF2-7793-4928-B7D9-A658325637B1}">
+						<Data>
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Return Value" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression=" Log.Error(&quot;The test failed due to some condition.Please check this Test&quot;)" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
 			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
 				<Data Description="Delays the test execution for the specified time period.">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">

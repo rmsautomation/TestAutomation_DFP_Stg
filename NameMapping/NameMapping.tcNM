@@ -2919,6 +2919,9 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//li[normalize-space(text()) = &apos;20-Foot Container Premium&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//span[.=&apos;20-Foot Container Premium&apos;]" />
 											</Selector>
 											<Selector>
@@ -3701,6 +3704,9 @@
 										<Image FileName="1741003631" Left="462" Top="898" Right="649" Bottom="915" />
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//li[@role=&apos;option&apos; and normalize-space(.) = &apos;Advanced Manifest Surcharge&apos;]" />
+											</Selector>
 											<Selector>
 												<Value Value="//span[.=&apos;Advanced Manifest Surcharge&apos;]" />
 											</Selector>

@@ -29,7 +29,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/" />
+										<Value Value="https://*.next.qwykportals.com/" />
 									</Property>
 								</Properties>
 								<Children>
@@ -624,7 +624,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/quotations/*" />
+										<Value Value="https://*.next.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1010,7 +1010,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/quotations/list" />
+										<Value Value="https://*.next.qwykportals.com/quotations/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1062,7 +1062,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/quotations/new" />
+										<Value Value="https://*.next.qwykportals.com/quotations/new" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1683,7 +1683,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/quotations/*" />
+										<Value Value="https://*.next.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1852,7 +1852,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/quotations/*" />
+										<Value Value="https://*.next.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -1910,7 +1910,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/quotations/*" />
+										<Value Value="https://*.next.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -2035,7 +2035,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/quotations/*" />
+										<Value Value="https://*.next.qwykportals.com/quotations/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -3979,7 +3979,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/my-portal/quotations" />
+										<Value Value="https://*.next.qwykportals.com/my-portal/quotations" />
 									</Property>
 								</Properties>
 								<Children>
@@ -4334,7 +4334,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/*" />
+										<Value Value="https://*.next.qwykportals.com/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -4616,7 +4616,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/" />
+										<Value Value="https://*.next.qwykportals.com/" />
 									</Property>
 								</Properties>
 								<Children>
@@ -5580,7 +5580,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/my-portal/*" />
+										<Value Value="https://*.next.qwykportals.com/my-portal/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -5928,7 +5928,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/quotation/*" />
+										<Value Value="https://*.next.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -5974,7 +5974,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/quotation/*" />
+										<Value Value="https://*.next.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6046,7 +6046,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/quotations/list" />
+										<Value Value="https://*.next.qwykportals.com/quotations/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6282,7 +6282,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/my-portal/quotations" />
+										<Value Value="https://*.next.qwykportals.com/my-portal/quotations" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6353,7 +6353,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/my-portal/shipments/list" />
+										<Value Value="https://*.next.qwykportals.com/my-portal/shipments/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6521,7 +6521,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/quotation/*" />
+										<Value Value="https://*.next.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6571,7 +6571,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/my-portal/booking/new/*" />
+										<Value Value="https://*.next.qwykportals.com/my-portal/booking/new/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6837,7 +6837,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/quotation/*" />
+										<Value Value="https://*.next.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6863,7 +6863,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/quotation/*" />
+										<Value Value="https://*.next.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -6928,7 +6928,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/quotation/*" />
+										<Value Value="https://*.next.qwykportals.com/quotation/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7085,7 +7085,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/my-portal/shipments/*" />
+										<Value Value="https://*.next.qwykportals.com/my-portal/shipments/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7299,7 +7299,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/my-portal/shipments/*" />
+										<Value Value="https://*.next.qwykportals.com/my-portal/shipments/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7345,7 +7345,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/shipments/list" />
+										<Value Value="https://*.next.qwykportals.com/shipments/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7887,7 +7887,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/user/profile" />
+										<Value Value="https://*.next.qwykportals.com/user/profile" />
 									</Property>
 								</Properties>
 								<Children>
@@ -7955,7 +7955,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/quotations/list" />
+										<Value Value="https://*.next.qwykportals.com/quotations/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8065,7 +8065,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/administration/portal-users" />
+										<Value Value="https://*.next.qwykportals.com/administration/portal-users" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8094,7 +8094,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/" />
+										<Value Value="https://*.next.qwykportals.com/" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8272,7 +8272,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/radar/sales" />
+										<Value Value="https://*.next.qwykportals.com/radar/sales" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8437,7 +8437,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/radar" />
+										<Value Value="https://*.next.qwykportals.com/radar" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8702,7 +8702,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://magaya-qadfp.next.qwykportals.com/" />
+										<Value Value="https://*.next.qwykportals.com/" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8780,7 +8780,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/quotations/list" />
+										<Value Value="https://*.next.qwykportals.com/quotations/list" />
 									</Property>
 								</Properties>
 								<Children>
@@ -8837,7 +8837,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://hub.next.qwykportals.com/shipments/list" />
+										<Value Value="https://*.next.qwykportals.com/shipments/list" />
 									</Property>
 								</Properties>
 								<Children>

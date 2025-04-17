@@ -5709,6 +5709,32 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="sectionGoodAfternoonAylinStaging2" Key="{8028C80B-9399-4CF1-8B6C-90174FB31E1E}">
+										<Image FileName="-679175488" Left="220" Top="87" Right="1920" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Good afternoon Aylin Staging&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeHereIsASnapshotOfWhatS" Key="{7E26A7FC-E193-4383-ACAC-9F9A6B614F13}">
+										<Image FileName="-679175488" Left="244" Top="208" Right="1881" Bottom="230" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;staticDashboard&apos;]//p" />
+											</Selector>
+											<Selector>
+												<Value Value="//p" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageInbox" Key="{9765DDDB-46AA-4F00-8C15-BEFC0AA77ADB}">
@@ -10114,6 +10140,8 @@
 				<Child Name="sectionGoodAfternoonAylinStaging" Owner="{4A072B0D-666F-4782-BA64-969C40AF9B4D}">
 					<Child Name="textnodeGoodAfternoonAylinStagin" Owner="{E9DF6C1F-FC41-4E64-9693-536D97C1926F}" />
 				</Child>
+				<Child Name="sectionGoodAfternoonAylinStaging2" Owner="{8028C80B-9399-4CF1-8B6C-90174FB31E1E}" />
+				<Child Name="textnodeHereIsASnapshotOfWhatS" Owner="{7E26A7FC-E193-4383-ACAC-9F9A6B614F13}" />
 			</Child>
 			<Child Name="pageInbox" Owner="{9765DDDB-46AA-4F00-8C15-BEFC0AA77ADB}">
 				<Child Name="frameIfmail" Owner="{6B74226C-C9CB-4499-9101-590533F309C1}">

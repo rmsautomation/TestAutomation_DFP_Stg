@@ -9808,6 +9808,29 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="sectionDfp" Key="{418D1DB2-C511-4D14-9ACB-06AF54C66949}">
+										<Image FileName="1922127250" Left="50" Top="139" Right="1905" Bottom="2545" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;DFP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{8FC3BBAD-2001-49D2-9DFC-542FB9533A4B}">
+										<Image FileName="1922127250" Left="1730" Top="855" Right="1890" Bottom="913" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[contains(text(), &apos;Booking Date&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu2" Key="{E68DCF31-3922-4E0A-932A-7510DC483CB6}">
@@ -10803,6 +10826,9 @@
 				<Child Name="textnode62" Owner="{EBE14ADE-C8B8-4D7E-AC23-006841143763}" />
 				<Child Name="textnodeApr" Owner="{D8643B59-82BC-456D-9038-9EA6D40E36FF}" />
 				<Child Name="textnode20" Owner="{EA129540-825A-4DD1-AAD6-D3645F73B691}" />
+				<Child Name="sectionDfp" Owner="{418D1DB2-C511-4D14-9ACB-06AF54C66949}">
+					<Child Name="cell" Owner="{8FC3BBAD-2001-49D2-9DFC-542FB9533A4B}" />
+				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu2" Owner="{E68DCF31-3922-4E0A-932A-7510DC483CB6}" />
 		</Child>

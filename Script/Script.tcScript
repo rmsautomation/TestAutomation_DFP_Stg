@@ -9,5 +9,6 @@
 		<child name="VerifyFilterShipmentsPortal" key="{136FE192-56C8-4D10-9D02-A2638473D4C9}" path="VerifyFilterShipmentsPortal.js" />
 		<child name="FailTest" key="{A427E51E-0B97-4F97-8252-4CA7583A9CEE}" path="FailTest.js" />
 		<child name="CleanCache" key="{A0777132-9D0B-40F1-8C97-C4E2D9EF5306}" path="CleanCache.js" />
+		<child name="VerifyBookingDateDescending" key="{7516575E-B0A1-482B-806B-00BED4C59399}" path="VerifyBookingDateDescending.js" />
 	</children>
 </Root>

@@ -82,6 +82,7 @@
 			</Operation>
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageMagayaDigitalFreightPortalHu2.FindElement(&quot;//span[contains(text(), &apos;3 years ago&apos;)]&quot;)" />
 						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
@@ -90,6 +91,9 @@
 						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
 					</Parameters>
 				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="IterateAndVerifyBookingDates" Unit="VerifyBookingDateDescending" />
 			</Operation>
 			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 				<Data Description="Posts an information message to the test log." MessageType="0">

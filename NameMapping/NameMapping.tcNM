@@ -1076,6 +1076,45 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode2029" Key="{45D78017-51AA-4753-956E-D5ECCEF55BFF}">
+										<Image FileName="-722188596" Left="1481" Top="697" Right="1710" Bottom="733" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//span[contains(text(), &apos;2029&apos;)])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[2]/span[10]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDec" Key="{58996089-74B9-42B6-BECD-CC35600DC160}">
+										<Image FileName="-739756585" Left="1557" Top="776" Right="1709" Bottom="812" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Dec&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode31" Key="{5B3489ED-B769-4F00-9C68-31F33FD6C7F7}">
+										<Image FileName="-1152531678" Left="1331" Top="546" Right="1369" Bottom="584" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;31&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tr[6]/td[2]/span[contains(@class, &apos;p-ripple&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-calendar[@id=&apos;valid_until&apos;]//div[@role=&apos;dialog&apos;]//tbody/tr[6]/td[2]/span" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tbody/tr[6]/td[2]/span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageQuotationsMagayaDigitalFreig" Key="{212136FB-3B45-4743-9B00-0C8AC62E9D31}">
@@ -9769,6 +9808,29 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="sectionDfp" Key="{418D1DB2-C511-4D14-9ACB-06AF54C66949}">
+										<Image FileName="1922127250" Left="50" Top="139" Right="1905" Bottom="2545" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;DFP&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{8FC3BBAD-2001-49D2-9DFC-542FB9533A4B}">
+										<Image FileName="1922127250" Left="1730" Top="855" Right="1890" Bottom="913" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[contains(text(), &apos;Booking Date&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagayaDigitalFreightPortalHu2" Key="{E68DCF31-3922-4E0A-932A-7510DC483CB6}">
@@ -10117,6 +10179,9 @@
 					<Child Name="linkCopyQuotation" Owner="{957004A8-FAA3-4660-AFD9-0902176986BE}" />
 					<Child Name="linkEdit" Owner="{2B404FC3-8907-4116-8D6E-5E8D5A3CD797}" />
 					<Child Name="linkDeleteQuotation" Owner="{5F1EADC5-39B8-43D1-A867-00F2B1BAE607}" />
+					<Child Name="textnode2029" Owner="{45D78017-51AA-4753-956E-D5ECCEF55BFF}" />
+					<Child Name="textnode31" Owner="{5B3489ED-B769-4F00-9C68-31F33FD6C7F7}" />
+					<Child Name="textnodeDec" Owner="{58996089-74B9-42B6-BECD-CC35600DC160}" />
 				</Child>
 				<Child Name="zip_code" Owner="{75734370-7896-4790-A2E2-95388AC69241}" />
 				<Child Name="textnodePrId2List" Owner="{D70CE88F-5888-4830-A050-E860AC3E4F4D}">
@@ -10761,6 +10826,9 @@
 				<Child Name="textnode62" Owner="{EBE14ADE-C8B8-4D7E-AC23-006841143763}" />
 				<Child Name="textnodeApr" Owner="{D8643B59-82BC-456D-9038-9EA6D40E36FF}" />
 				<Child Name="textnode20" Owner="{EA129540-825A-4DD1-AAD6-D3645F73B691}" />
+				<Child Name="sectionDfp" Owner="{418D1DB2-C511-4D14-9ACB-06AF54C66949}">
+					<Child Name="cell" Owner="{8FC3BBAD-2001-49D2-9DFC-542FB9533A4B}" />
+				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu2" Owner="{E68DCF31-3922-4E0A-932A-7510DC483CB6}" />
 		</Child>

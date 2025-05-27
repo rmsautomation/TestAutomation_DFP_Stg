@@ -4803,6 +4803,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="vg" Key="{0C6A241B-1734-4B00-BB30-8977064A509B}">
+										<Image FileName="-1467833337" Left="697" Top="872" Right="711" Bottom="886" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[3]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;currency&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya3" Key="{78BC1E93-79ED-4600-85D7-71C598836EE8}">
@@ -9882,6 +9897,107 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageMagayaDigitalFreightPortalHu3" Key="{F97D1ABD-A053-4AC0-950D-D74B2CC51DDC}">
+								<Image FileName="1348979774" Left="0" Top="87" Right="1919" Bottom="1039" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://hub.next.qwykportals.com/quotations/9cf23363-b6e2-4b54-8c99-b28f54d0036a/offers/9cf23386-ea40-474a-92ab-9eb7be29bab0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textbox" Key="{C88BDA97-166C-4653-8E3D-215D26FB3F33}">
+										<Image FileName="1348979774" Left="245" Top="642" Right="709" Bottom="675" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p-overlay//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;p-dropdown-filter&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;currency&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-overlay//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUsd" Key="{B4513B43-3F22-47F6-8583-E928BCE57560}">
+										<Image FileName="1246541199" Left="234" Top="682" Right="722" Bottom="713" />
+										<Selectors>
+											<Selector>
+												<Value Value="#currency_0" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;United States Dollar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;USD&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;currency_list&apos;]//li" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelUnitedStatesDollar" Key="{F8491334-58C2-4A11-ADC1-20A42D50AF8C}">
+										<Image FileName="1246541199" Left="245" Top="688" Right="709" Bottom="707" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;United States Dollar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;ng-star-inserted&apos;)]/div[contains(@class, &apos;ng-star-inserted&apos;)]/div[contains(@class, &apos;ng-star-inserted&apos;)]/div[2]/ul//div[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;currency_0&apos;]/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem/li/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionQwyk" Key="{F5DE1EE2-A7AE-4BEC-A840-8A2855C648C9}">
+										<Image FileName="-344047260" Left="45" Top="-4677" Right="1905" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Qwyk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{64940690-42A7-47AB-BEC3-57E8E0AEA921}">
+										<Image FileName="-344047260" Left="1524" Top="268" Right="1628" Bottom="303" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(text(), &apos;$4,270.85&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//tfoot/tr/td[contains(@class, &apos;font-weight-bold&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -10318,7 +10434,13 @@
 						<Child Name="textnode2029" Owner="{27877E5D-4106-4577-8263-F5C4556CC77D}" />
 						<Child Name="textnodeDec" Owner="{A272D335-ED47-44B8-B887-52A70B5E3807}" />
 						<Child Name="textnode31" Owner="{B3AC6829-F7B9-4AE7-9022-B1E1B544D4AC}" />
+						<Child Name="vg" Owner="{0C6A241B-1734-4B00-BB30-8977064A509B}" />
+						<Child Name="textbox" Owner="{C88BDA97-166C-4653-8E3D-215D26FB3F33}" />
+						<Child Name="textnodeUsd" Owner="{B4513B43-3F22-47F6-8583-E928BCE57560}">
+							<Child Name="panelUnitedStatesDollar" Owner="{F8491334-58C2-4A11-ADC1-20A42D50AF8C}" />
+						</Child>
 					</Child>
+					<Child Name="cell" Owner="{64940690-42A7-47AB-BEC3-57E8E0AEA921}" />
 				</Child>
 			</Child>
 			<Child Name="pageMagaya3" Owner="{78BC1E93-79ED-4600-85D7-71C598836EE8}">
@@ -10831,6 +10953,9 @@
 				</Child>
 			</Child>
 			<Child Name="pageMagayaDigitalFreightPortalHu2" Owner="{E68DCF31-3922-4E0A-932A-7510DC483CB6}" />
+			<Child Name="pageMagayaDigitalFreightPortalHu3" Owner="{F97D1ABD-A053-4AC0-950D-D74B2CC51DDC}">
+				<Child Name="sectionQwyk" Owner="{F5DE1EE2-A7AE-4BEC-A840-8A2855C648C9}" />
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>

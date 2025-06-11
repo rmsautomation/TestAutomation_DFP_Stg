@@ -101,6 +101,18 @@
 					<Node name="var30">
 						<Prp name="name" type="S" value="Password1"/>
 					</Node>
+					<Node name="var31">
+						<Prp name="name" type="S" value="firstNotiHome"/>
+					</Node>
+					<Node name="var32">
+						<Prp name="name" type="S" value="lastNotificationHome"/>
+					</Node>
+					<Node name="var33">
+						<Prp name="name" type="S" value="latestNoti50"/>
+					</Node>
+					<Node name="var34">
+						<Prp name="name" type="S" value="firstNotiLastPage"/>
+					</Node>
 					<Node name="var4">
 						<Prp name="name" type="S" value="email_quote"/>
 					</Node>

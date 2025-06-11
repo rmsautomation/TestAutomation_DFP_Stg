@@ -81,6 +81,16 @@
 					<child name="FilterSort" key="{7A1C3171-8D91-4ADA-A6E7-A08EE7964D93}" path="FilterSort.tcKDTest" />
 					<child name="FilterVessel" key="{D79FD09A-CD22-4252-9BC9-F1447E466145}" path="FilterVessel.tcKDTest" />
 				</folder>
+				<folder name="Home">
+					<child name="GoToRecentNotifications" key="{850ABCF0-1E15-4A5D-9EA2-49BA3ECD1101}" path="GoToRecentNotifications.tcKDTest" />
+					<child name="SaveFirstNotificationPage1" key="{FECB2286-FE6D-49C7-A8F2-5A78F2B52EBF}" path="SaveFirstNotificationPage1.tcKDTest" />
+					<child name="SaveLatestNotiPage1" key="{CC0B1642-FC93-4544-95D8-CC4F445E54E3}" path="SaveLatestNotiPage1.tcKDTest" />
+					<child name="ChangePaginationTo50" key="{F8CFFEDB-BA71-4B5E-90CF-8EE280F2E242}" path="ChangePaginationTo50.tcKDTest" />
+					<child name="SaveLatestNotification50" key="{410708CD-DBDC-421D-AF9B-6A3CDEA45834}" path="SaveLatestNotification50.tcKDTest" />
+					<child name="ChangePaginationTo10" key="{346F4438-DF57-45FC-A0A8-EB627F0391D5}" path="ChangePaginationTo10.tcKDTest" />
+					<child name="GoToLatestPage" key="{277A3E77-B61B-4DBF-A030-660BA02A112D}" path="GoToLatestPage.tcKDTest" />
+					<child name="SavefirstNotiLatestPage" key="{2789E793-51A7-44CC-8069-F8C2FFA13C6D}" path="SavefirstNotiLatestPage.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="Portal">
 				<folder name="Quotation">

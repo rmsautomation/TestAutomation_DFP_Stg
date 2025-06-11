@@ -109,6 +109,11 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
+			<testItem name="TC_QWYK_9616_NotificationsVerifyPaginationAndPageSize" key="{19B941A8-A3AA-4F16-A91D-4A9247F54B96}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{A41E945D-0684-40C7-97BD-1817B616A5BE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{DF9D59B0-FEA8-40E5-BDA7-72D4EB633E36}">
@@ -206,6 +211,18 @@
 				</Variable>
 				<Variable Name="Password1" Type="Password" Local="False">
 					<DefValue StrValue="38003900360031003100330044003200460034004400380041004200460034004500430039003800430037004600310038003000300031004300370036003000420032003900300044004500310044003800380032003700310030003900350036003200390032004400390041003600330038004500420041003800300030003300460034004600390037003500350036003200420038003800440033003800" />
+				</Variable>
+				<Variable Name="firstNotiHome" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="lastNotificationHome" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="latestNoti50" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="firstNotiLastPage" Type="String" Local="False">
+					<DefValue />
 				</Variable>
 			</Items>
 		</data>

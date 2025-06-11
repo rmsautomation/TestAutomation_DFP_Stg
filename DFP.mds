@@ -96,10 +96,15 @@
 			</testItem>
 			<testItem name="TC_11_QWYK_145_Portal_QuotationFCL_Buyer_Booked" key="{867F5662-691C-40D3-B37E-23E7C88BBECF}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{DB659027-D1EC-4BC7-9C48-F7974326E62C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_QWYK_5305_CustomFieldsTableView_SH" key="{48E796B5-9EB7-47E6-9112-2F9478032B58}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{E9EAB2AC-4D0E-4C5F-B66E-E27B9915D520}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
-			<testItem name="CustomFieldsTableView_SH_WH" key="{A72A1319-E699-465B-8ECD-0B725E7D83AA}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{E9EAB2AC-4D0E-4C5F-B66E-E27B9915D520}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_QWYK_3072_CustomFieldsTableView_WH" key="{12FEEBFD-284D-4E54-B4FC-F1595B894023}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{E0751C46-BC0D-4E18-AED1-BFAD81493485}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />

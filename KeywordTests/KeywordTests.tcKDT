@@ -20,6 +20,7 @@
 				</folder>
 				<folder name="Home">
 					<child name="TC_17_QWYK_280_Hub_Home" key="{C04A8737-EEF7-4268-8B6A-07DB5CF1A687}" path="TC_17_QWYK_280_Hub_Home.tcKDTest" />
+					<child name="TC_QWYK_9616_NotificationsVerifyPaginationAndPageSize" key="{A41E945D-0684-40C7-97BD-1817B616A5BE}" path="TC_QWYK_9616_NotificationsVerifyPaginationAndPageSize.tcKDTest" />
 				</folder>
 				<folder name="Radar">
 					<child name="TC__18_QWYK_281_Hub_Radar" key="{0E2B9721-9FF6-4451-9B73-8FB023CA5199}" path="TC__18_QWYK_281_Hub_Radar.tcKDTest" />
@@ -31,7 +32,8 @@
 				<child name="TC_13_QWYK_149_Portal_QuotationFTL_Buyer_Requested" key="{B6EB28FE-C7B6-43E3-A08B-5209383F9AD3}" path="TC_13_QWYK_149_Portal_QuotationFTL_Buyer_Requested.tcKDTest" />
 				<child name="TC_14_QWYK_150_Portal_Quotation_LTL_SellerRequested_Status" key="{330BA411-AB18-4BA7-83D6-FE66D3B2B574}" path="TC_14_QWYK_150_Portal_Quotation_LTL_SellerRequested_Status.tcKDTest" />
 				<child name="TC_15_QWYK_152_Portal_QuotationAIR_Buyer__Requested" key="{0D85D1AA-1262-4403-BFD8-E4B56FD84B0C}" path="TC_15_QWYK_152_Portal_QuotationAIR_Buyer__Requested.tcKDTest" />
-				<child name="CustomFieldsTableView_SH_WH" key="{E9EAB2AC-4D0E-4C5F-B66E-E27B9915D520}" path="CustomFieldsTableView_SH_WH.tcKDTest" />
+				<child name="TC_QWYK_5305_CustomFieldsTableView_SH" key="{E9EAB2AC-4D0E-4C5F-B66E-E27B9915D520}" path="TC_QWYK_5305_CustomFieldsTableView_SH.tcKDTest" />
+				<child name="TC_QWYK_3072_CustomFieldsTableView_WH" key="{E0751C46-BC0D-4E18-AED1-BFAD81493485}" path="TC_QWYK_3072_CustomFieldsTableView_WH.tcKDTest" />
 			</folder>
 		</folder>
 		<folder name="Utils">

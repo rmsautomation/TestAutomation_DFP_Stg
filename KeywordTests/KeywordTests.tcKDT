@@ -20,6 +20,7 @@
 				</folder>
 				<folder name="Home">
 					<child name="TC_17_QWYK_280_Hub_Home" key="{C04A8737-EEF7-4268-8B6A-07DB5CF1A687}" path="TC_17_QWYK_280_Hub_Home.tcKDTest" />
+					<child name="TC_QWYK_9616_NotificationsVerifyPaginationAndPageSize" key="{A41E945D-0684-40C7-97BD-1817B616A5BE}" path="TC_QWYK_9616_NotificationsVerifyPaginationAndPageSize.tcKDTest" />
 				</folder>
 				<folder name="Radar">
 					<child name="TC__18_QWYK_281_Hub_Radar" key="{0E2B9721-9FF6-4451-9B73-8FB023CA5199}" path="TC__18_QWYK_281_Hub_Radar.tcKDTest" />
@@ -31,7 +32,8 @@
 				<child name="TC_13_QWYK_149_Portal_QuotationFTL_Buyer_Requested" key="{B6EB28FE-C7B6-43E3-A08B-5209383F9AD3}" path="TC_13_QWYK_149_Portal_QuotationFTL_Buyer_Requested.tcKDTest" />
 				<child name="TC_14_QWYK_150_Portal_Quotation_LTL_SellerRequested_Status" key="{330BA411-AB18-4BA7-83D6-FE66D3B2B574}" path="TC_14_QWYK_150_Portal_Quotation_LTL_SellerRequested_Status.tcKDTest" />
 				<child name="TC_15_QWYK_152_Portal_QuotationAIR_Buyer__Requested" key="{0D85D1AA-1262-4403-BFD8-E4B56FD84B0C}" path="TC_15_QWYK_152_Portal_QuotationAIR_Buyer__Requested.tcKDTest" />
-				<child name="CustomFieldsTableView_SH_WH" key="{E9EAB2AC-4D0E-4C5F-B66E-E27B9915D520}" path="CustomFieldsTableView_SH_WH.tcKDTest" />
+				<child name="TC_QWYK_5305_CustomFieldsTableView_SH" key="{E9EAB2AC-4D0E-4C5F-B66E-E27B9915D520}" path="TC_QWYK_5305_CustomFieldsTableView_SH.tcKDTest" />
+				<child name="TC_QWYK_3072_CustomFieldsTableView_WH" key="{E0751C46-BC0D-4E18-AED1-BFAD81493485}" path="TC_QWYK_3072_CustomFieldsTableView_WH.tcKDTest" />
 			</folder>
 		</folder>
 		<folder name="Utils">
@@ -78,6 +80,16 @@
 					<child name="FilterProduct" key="{75FA6CF0-763C-41E7-8DA9-B5143BF483D3}" path="FilterProduct.tcKDTest" />
 					<child name="FilterSort" key="{7A1C3171-8D91-4ADA-A6E7-A08EE7964D93}" path="FilterSort.tcKDTest" />
 					<child name="FilterVessel" key="{D79FD09A-CD22-4252-9BC9-F1447E466145}" path="FilterVessel.tcKDTest" />
+				</folder>
+				<folder name="Home">
+					<child name="GoToRecentNotifications" key="{850ABCF0-1E15-4A5D-9EA2-49BA3ECD1101}" path="GoToRecentNotifications.tcKDTest" />
+					<child name="SaveFirstNotificationPage1" key="{FECB2286-FE6D-49C7-A8F2-5A78F2B52EBF}" path="SaveFirstNotificationPage1.tcKDTest" />
+					<child name="SaveLatestNotiPage1" key="{CC0B1642-FC93-4544-95D8-CC4F445E54E3}" path="SaveLatestNotiPage1.tcKDTest" />
+					<child name="ChangePaginationTo50" key="{F8CFFEDB-BA71-4B5E-90CF-8EE280F2E242}" path="ChangePaginationTo50.tcKDTest" />
+					<child name="SaveLatestNotification50" key="{410708CD-DBDC-421D-AF9B-6A3CDEA45834}" path="SaveLatestNotification50.tcKDTest" />
+					<child name="ChangePaginationTo10" key="{346F4438-DF57-45FC-A0A8-EB627F0391D5}" path="ChangePaginationTo10.tcKDTest" />
+					<child name="GoToLatestPage" key="{277A3E77-B61B-4DBF-A030-660BA02A112D}" path="GoToLatestPage.tcKDTest" />
+					<child name="SavefirstNotiLatestPage" key="{2789E793-51A7-44CC-8069-F8C2FFA13C6D}" path="SavefirstNotiLatestPage.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Portal">

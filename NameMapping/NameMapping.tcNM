@@ -5192,6 +5192,9 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=(//li[contains(@class, &apos;p-autocomplete-item&apos;) and contains(@class, &apos;ng-star-inserted&apos;)])[1]" />
+											</Selector>
+											<Selector>
 												<Value Value="//div[.=&apos;Los Angeles, CA&apos;]" />
 											</Selector>
 											<Selector>
@@ -7355,7 +7358,13 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=(//span[contains(@class, &apos;ng-arrow-wrapper&apos;)])[3]" />
+											</Selector>
+											<Selector>
 												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-rate-request-modal/form//ng-select//span[contains(@class, &apos;ng-arrow-wrapper&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;ng-placeholder&apos;) and normalize-space(.)=&apos;Select a request&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//ngb-modal-window[@role=&apos;dialog&apos;]//qwyk-rate-request-modal/form//ng-select//span" />
@@ -7705,6 +7714,9 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//div[2]/fa-icon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;btn-outline-primary&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -10254,7 +10266,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://38442-dfpstag-magayaprod-auto.next.qwykportals.com/*" />
+										<Value Value="https://*.qwykportals.com/*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -10426,6 +10438,9 @@
 										<Image FileName="-1510756721" Left="235" Top="415" Right="1905" Bottom="958" />
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//th[contains(@class, &apos;p-sortable-column&apos;) and .//div[normalize-space(.)=&apos;Status&apos;]]" />
+											</Selector>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;p-datatable-wrapper&apos;)]" />
 											</Selector>
@@ -10624,6 +10639,41 @@
 											</Selector>
 											<Selector>
 												<Value Value="//a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formFilterByStatus" Key="{1AFD770B-7668-43CE-A333-1A062040915E}">
+										<Image FileName="-667240192" Left="478" Top="295" Right="1648" Bottom="386" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Filter by Status&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-untouched&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{85F9D1A5-FA35-47A0-BB0B-CDF1E96E8B15}">
+										<Image FileName="-667240192" Left="518" Top="364" Right="532" Bottom="376" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/fa-icon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;btn-outline-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelStatus2" Key="{DBEB7EC0-D6E9-4A76-AB12-E2E0CBC210F2}">
+										<Image FileName="435639776" Left="235" Top="467" Right="1890" Bottom="981" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;p-datatable-wrapper&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -10926,6 +10976,62 @@
 											</Selector>
 											<Selector>
 												<Value Value="//qwyk-notifications-list/ul/li//span[contains(@class, &apos;ng-star-inserted&apos;)]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagaya" Key="{CC8F7491-63D6-4B4C-9A1F-611DD0168202}">
+								<Image FileName="1999452193" Left="8" Top="147" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{2EFC1068-7347-40A1-8873-4A816180FB49}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magaya-qadfp.next.qwykportals.com/quotation/9f336e26-a1e5-4406-b985-c9883cb24e1f" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formSendUsYourRequestAndWeLl" Key="{0885437B-D87A-4308-9663-50EE9494E031}">
+										<Image FileName="1999452193" Left="489" Top="446" Right="1447" Bottom="807" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &quot;Send us your request and we&apos;ll send you an updated quotation.&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/qwyk-rate-request-modal/form[contains(@class, &apos;ng-pristine&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/qwyk-rate-request-modal/form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{C63BB906-EBA9-4E0D-9D6C-AA2914A6F9CC}">
+										<Image FileName="1999452193" Left="1397" Top="543" Right="1422" Bottom="567" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-rate-request-modal/form//ng-select//span[contains(@class, &apos;ng-arrow-wrapper&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-rate-request-modal/form//ng-select//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textbox" Key="{C3C36714-3AA4-44CF-935C-12EC509001D5}">
+										<Image FileName="16461643" Left="516" Top="534" Right="1364" Bottom="558" />
+										<TypeInfo Item0="{FE3BBF2D-62CE-4222-9079-8A4579DCFAC4}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-rate-request-modal/form//ng-select//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ng-select[@id=&apos;reason&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//qwyk-rate-request-modal/form//ng-select//input" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -11644,7 +11750,6 @@
 				</Child>
 				<Child Name="buttonSendARequest" Owner="{AED7A881-5FC4-428F-83B0-EE7731466CEE}" />
 				<Child Name="formSendUsYourRequestAndWeLl" Owner="{32710E65-1A93-4278-93D4-F3173D0E9C9C}">
-					<Child Name="textnode" Owner="{5425C0D1-3421-4ACD-9D18-E87F25EF5BB3}" />
 					<Child Name="panelINeedABetterRate" Owner="{6B69B26F-B1F5-48A8-9CC3-574A029F91CA}" />
 					<Child Name="textareaRemarks" Owner="{A64371FD-BEF5-4898-A024-F9EA9878C65B}" />
 					<Child Name="buttonSend" Owner="{4725AA41-9E77-45E1-BC80-55F8ACB5D4D7}" />
@@ -11666,9 +11771,7 @@
 					<Child Name="panelQuoteQuo006872" Owner="{59D60B06-40B8-43BA-B3B9-4261E089BB3F}" />
 				</Child>
 				<Child Name="sectionMyPortal" Owner="{6AACC50D-053A-4681-97B1-45E9025953E5}">
-					<Child Name="formDraft" Owner="{A7F84001-22D3-4189-901B-998E9043FB32}">
-						<Child Name="textnode" Owner="{1D92DC9D-E5AA-4CFE-838B-2AB2EFC5D7C3}" />
-					</Child>
+					<Child Name="formDraft" Owner="{A7F84001-22D3-4189-901B-998E9043FB32}" />
 					<Child Name="panelYourReference" Owner="{B2056479-1BE1-472A-8827-6A55CF4A56B7}" />
 					<Child Name="panelIncoTerms" Owner="{57FDC6C8-CB45-4392-A37C-383BB69247BD}" />
 					<Child Name="panelBoolean" Owner="{6D5B4FB5-1228-4829-A2B0-6BEDC24C74E0}" />
@@ -11815,6 +11918,8 @@
 				</Child>
 			</Child>
 			<Child Name="pageCallback" Owner="{15ED1B68-46A8-4BD7-9D84-2887A0DE4F35}" />
+			<Child Name="textnode" Owner="{5425C0D1-3421-4ACD-9D18-E87F25EF5BB3}" />
+			<Child Name="textnodeTable" Owner="{1D92DC9D-E5AA-4CFE-838B-2AB2EFC5D7C3}" />
 		</Child>
 		<Child Name="explorer" Owner="{2B5F5DD0-6C6A-4C01-8392-67C38AED2AF7}">
 			<Child Name="wndShell_TrayWnd" Owner="{910C0DAB-BCCB-4418-ABBD-27987DB9B5B5}">
@@ -11938,7 +12043,6 @@
 					</Child>
 				</Child>
 				<Child Name="sectionMyPortal" Owner="{1CC0535E-722A-405E-BC60-9954C6CE9779}">
-					<Child Name="panelStatus" Owner="{7904EE35-6EF9-4BEF-92FE-6CD54386551D}" />
 					<Child Name="panelStringcustomfield" Owner="{EB3CF41A-50D8-406F-8E24-B2409F249FBB}" />
 					<Child Name="panelIntegercustomfield" Owner="{FC94559E-A8EC-48F7-A74D-2084939F5CEE}" />
 					<Child Name="panelDecimalcustomfield" Owner="{91185198-2903-4250-904C-A113FD8FF1C1}" />
@@ -11946,9 +12050,13 @@
 					<Child Name="panelDatecustomfield" Owner="{220CB8EB-7289-4CA2-A747-87227DAD20B7}" />
 					<Child Name="panelMoneycustomfield" Owner="{F5480BAB-AF2E-4ADF-A9E9-EC3DC640D500}" />
 					<Child Name="panelLookupcutomsfield" Owner="{D6D80690-8B7C-4C03-BB6B-8BAFD2E5EFC6}" />
-					<Child Name="panelQatest" Owner="{4147EDEF-4E52-4E47-91C8-40EA1518E48F}" />
 					<Child Name="panelGuidwh" Owner="{5236BC17-75F0-42C9-A939-47DE7E178C60}" />
+					<Child Name="formFilterByStatus" Owner="{1AFD770B-7668-43CE-A333-1A062040915E}" />
+					<Child Name="panelStatus2" Owner="{DBEB7EC0-D6E9-4A76-AB12-E2E0CBC210F2}" />
 				</Child>
+				<Child Name="textnode" Owner="{85F9D1A5-FA35-47A0-BB0B-CDF1E96E8B15}" />
+				<Child Name="panelQatest" Owner="{4147EDEF-4E52-4E47-91C8-40EA1518E48F}" />
+				<Child Name="panelStatus" Owner="{7904EE35-6EF9-4BEF-92FE-6CD54386551D}" />
 			</Child>
 			<Child Name="page38442DfpstagMagayaprodAutoma2" Owner="{4D6AF3A7-E276-4882-BBAF-64B8FC0B2D0F}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu4" Owner="{8B337489-178F-46D0-B36D-28D0840AA9D8}">
@@ -11971,6 +12079,12 @@
 				</Child>
 				<Child Name="latestNotiPage50" Owner="{BE9CEA77-07F3-43EE-8C1A-D43056570F45}" />
 				<Child Name="firstNotiLastPage" Owner="{A6EDB4F8-9C9E-4274-9459-BD8B240F60B1}" />
+			</Child>
+			<Child Name="pageMagaya" Owner="{CC8F7491-63D6-4B4C-9A1F-611DD0168202}">
+				<Child Name="formSendUsYourRequestAndWeLl" Owner="{0885437B-D87A-4308-9663-50EE9494E031}">
+					<Child Name="textnode" Owner="{C63BB906-EBA9-4E0D-9D6C-AA2914A6F9CC}" />
+					<Child Name="textbox" Owner="{C3C36714-3AA4-44CF-935C-12EC509001D5}" />
+				</Child>
 			</Child>
 		</Child>
 	</LogicalNodes>

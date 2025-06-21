@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{9674B898-EF47-49AD-B8B3-55DC5BD63DEB}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45817.669537037" objectName="Aliases.browser.pageMagaya13.sectionMyPortal.formDraft.textnode" objectLeft="518" objectTop="323" objectRight="532" objectBottom="335" clickPointX="518" clickPointY="332" imageFileName="tcvi1089029218132240.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45817.669537037" objectName="Aliases.browser.textnodeTable" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1089029218132240.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45828.8424074074" objectName="Aliases.chrome2.page38442DfpstagMagayaprodAutoma.textnode" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi205430907844760.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>

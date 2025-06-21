@@ -3,9 +3,10 @@
     var locked = aqString.Find(LogParams.Str, "disabled");
     // Also check if the warning message mentions "The browser is already running"
     var browserRunning = aqString.Find(LogParams.Str, "The browser is already running");
+    var replaceObject = aqString.Find(LogParams.Str, "object was replaced with a similar object");
 
     // If the word "disabled" or "The browser is already running" is found
-    if (locked != -1 || browserRunning != -1) {
+    if (locked != -1 || browserRunning != -1 || replaceObject!= -1) {
         // Block the warning message from being logged
         LogParams.Locked = true;
     } else {

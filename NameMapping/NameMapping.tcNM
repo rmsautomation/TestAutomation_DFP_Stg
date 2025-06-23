@@ -10979,6 +10979,80 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode" Key="{134362C1-A84D-45AB-8B4C-630D20370406}">
+										<Image FileName="1465387913" Left="1652" Top="960" Right="1664" Bottom="967" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_24&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-paginator//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePnId24List" Key="{21C51990-9239-459B-B4F6-185349E4A2AD}">
+										<Image FileName="-1590081620" Left="1621" Top="855" Right="1673" Bottom="947" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_24_list" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;10&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;p-dropdown-items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode102" Key="{FD67FD54-28CB-41F7-A0DF-3FB0CB9372D6}">
+										<Image FileName="-1590081620" Left="1633" Top="862" Right="1647" Bottom="877" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;10&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/span[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;pn_id_24_0&apos;]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode503" Key="{0ECEEE8F-3460-4549-A683-6CD5E0034952}">
+										<Image FileName="-1885784088" Left="1621" Top="916" Right="1673" Bottom="947" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#pn_id_24_2" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;50&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li[contains(@class, &apos;p-ripple&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p-dropdownitem[3]/li" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya" Key="{CC8F7491-63D6-4B4C-9A1F-611DD0168202}">
@@ -12070,6 +12144,7 @@
 					<Child Name="textnodeYiselStaging" Owner="{B011BB8F-A9BB-49F1-9CD9-D5AFB562F823}">
 						<Child Name="textnodeYiselStaging2" Owner="{FA912FB3-9A96-4F5B-A27F-1166A7974DEE}" />
 					</Child>
+					<Child Name="textnode" Owner="{134362C1-A84D-45AB-8B4C-630D20370406}" />
 				</Child>
 				<Child Name="textnodePnId22List" Owner="{31F03A43-5B8E-4DBE-A586-617433CEC1AD}">
 					<Child Name="textnode50" Owner="{299B27E6-AD34-4598-829E-ED38D8EC82AA}">
@@ -12079,6 +12154,10 @@
 				</Child>
 				<Child Name="latestNotiPage50" Owner="{BE9CEA77-07F3-43EE-8C1A-D43056570F45}" />
 				<Child Name="firstNotiLastPage" Owner="{A6EDB4F8-9C9E-4274-9459-BD8B240F60B1}" />
+				<Child Name="textnodePnId24List" Owner="{21C51990-9239-459B-B4F6-185349E4A2AD}">
+					<Child Name="textnode102" Owner="{FD67FD54-28CB-41F7-A0DF-3FB0CB9372D6}" />
+					<Child Name="textnode503" Owner="{0ECEEE8F-3460-4549-A683-6CD5E0034952}" />
+				</Child>
 			</Child>
 			<Child Name="pageMagaya" Owner="{CC8F7491-63D6-4B4C-9A1F-611DD0168202}">
 				<Child Name="formSendUsYourRequestAndWeLl" Owner="{0885437B-D87A-4308-9663-50EE9494E031}">

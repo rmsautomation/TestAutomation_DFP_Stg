@@ -80,3 +80,78 @@
     Log.Warning("No files found in the Downloads folder.");
   }
 }
+
+function openPDFCheckNotes() {
+  Delay(10000);
+  var fso = Sys.OleObject("Scripting.FileSystemObject");
+  var shell = Sys.OleObject("WScript.Shell");
+  var homeFolder = shell.ExpandEnvironmentStrings("%USERPROFILE%");
+  var downloadFolder = homeFolder + "\\Downloads";
+  if (!fso.FolderExists(downloadFolder)) {
+    Log.Error("Downloads folder not found: " + downloadFolder);
+    return;
+  }
+  var folder = fso.GetFolder(downloadFolder);
+  var files = new Enumerator(folder.Files);
+  var latestFile = null;
+  var latestDate = new Date(0);
+  for (; !files.atEnd(); files.moveNext()) {
+    var file = files.item();
+    if (file.DateLastModified > latestDate) {
+      latestDate = file.DateLastModified;
+      latestFile = file;
+    }
+  }
+  if (latestFile) {
+    Log.Message("The most recent file is: " + latestFile.Name);
+    var pdfPath = downloadFolder + "\\" + latestFile.Name;
+    if (aqFileSystem.GetFileExtension(pdfPath).toLowerCase() === "pdf") {
+      var contents = PDF.ConvertToText(pdfPath);
+      if (contents !== "") {
+        var pageTexts = contents.split("\f");
+        var pageCount = pageTexts.length;
+        // Calculate the starting page index based on the last three pages
+        var startPage = Math.max(pageCount - 3, 0);
+        var lastPagesText = pageTexts.slice(startPage).join(" ");
+        // Check both forms of `Project.Variables.now`
+        /*var searchTerm1 = Project.Variables.now;
+        var searchTerm2 = searchTerm1.replace("AutomationNotes", "Automation Notes");
+        if (lastPagesText.indexOf(searchTerm1) !== -1 || lastPagesText.indexOf(searchTerm2) !== -1) {
+          Log.Checkpoint("The PDF contains the variable in the last three pages.");
+        } else {
+          Log.Error("The PDF does NOT contain the variable in the last three pages.");
+        }*/
+        var searchTerm1 = Project.Variables.now;
+var searchTerm2 = searchTerm1.replace("AutomationNotes", "Automation Notes");
+ 
+// Normalize text by replacing underscores and spaces to a consistent format
+function normalizeText(text) {
+  // Replace underscores with spaces
+  var normalized = text.replace(/_/g, " ");
+  // Replace multiple consecutive spaces with a single space
+  normalized = normalized.replace(/\s+/g, " ").trim();
+  return normalized.toLowerCase(); // Convert to lowercase for case-insensitive comparison
+}
+ 
+// Normalize the PDF text and the search terms
+var normalizedPdfText = normalizeText(lastPagesText);
+var normalizedSearchTerm1 = normalizeText(searchTerm1);
+var normalizedSearchTerm2 = normalizeText(searchTerm2);
+ 
+// Search for the normalized terms in the normalized PDF text
+if (normalizedPdfText.indexOf(normalizedSearchTerm1) !== -1 || normalizedPdfText.indexOf(normalizedSearchTerm2) !== -1) {
+  Log.Checkpoint("The PDF contains the variable in the last three pages.");
+} else {
+  Log.Error("The PDF does NOT contain the variable in the last three pages.");
+}
+ 
+      } else {
+        Log.Error("The PDF is empty or its content could not be extracted.");
+      }
+    } else {
+      Log.Error("The latest file is not a PDF.");
+    }
+  } else {
+    Log.Error("No files found in the Downloads folder.");
+  }
+}

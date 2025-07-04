@@ -2619,7 +2619,7 @@
 												<Value Value="//button[@aria-describedby=(//ngb-tooltip-window[.=&apos;Download a PDF of this quotation&apos;]/@id)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//qwyk-quotation-detail-header//button" />
+												<Value Value="//qwyk-quotation-detail-header//button" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -10677,6 +10677,49 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="sectionQwyk" Key="{C8600FBB-76F6-4519-AB33-0D22369E4896}">
+										<Image FileName="1348829664" Left="45" Top="-439" Right="1905" Bottom="1040" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Qwyk&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;page-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formCarrier" Key="{0942A726-D920-412F-AFAC-5175287B11B2}">
+										<Image FileName="1348829664" Left="232" Top="165" Right="1719" Bottom="982" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Carrier&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;ng-dirty&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaQuotationRemarks" Key="{2D9A31F6-AB7C-4B01-BB71-B8991FBCB435}">
+										<Image FileName="1348829664" Left="232" Top="810" Right="1719" Bottom="916" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//textarea[@id=(//label[.=&apos;Quotation Remarks&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#remarks" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="page38442DfpstagMagayaprodAutoma2" Key="{4D6AF3A7-E276-4882-BBAF-64B8FC0B2D0F}">
@@ -12131,6 +12174,11 @@
 				<Child Name="textnode" Owner="{85F9D1A5-FA35-47A0-BB0B-CDF1E96E8B15}" />
 				<Child Name="panelQatest" Owner="{4147EDEF-4E52-4E47-91C8-40EA1518E48F}" />
 				<Child Name="panelStatus" Owner="{7904EE35-6EF9-4BEF-92FE-6CD54386551D}" />
+				<Child Name="sectionQwyk" Owner="{C8600FBB-76F6-4519-AB33-0D22369E4896}">
+					<Child Name="formCarrier" Owner="{0942A726-D920-412F-AFAC-5175287B11B2}">
+						<Child Name="textareaQuotationRemarks" Owner="{2D9A31F6-AB7C-4B01-BB71-B8991FBCB435}" />
+					</Child>
+				</Child>
 			</Child>
 			<Child Name="page38442DfpstagMagayaprodAutoma2" Owner="{4D6AF3A7-E276-4882-BBAF-64B8FC0B2D0F}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu4" Owner="{8B337489-178F-46D0-B36D-28D0840AA9D8}">

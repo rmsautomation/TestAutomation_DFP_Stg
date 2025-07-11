@@ -46,12 +46,12 @@
 			</testItem>
 			<testItem name="TC_8_QWYK_142_HUB_QuotationCreate_Offer_LCL_Quotation" key="{B2BEFA90-A5CF-437A-8106-990DCECA4725}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{32170393-9904-4363-A43D-F0B938E6D1E2}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_9_QWYK_158_HUB_Quotation__Download_All_Quotations" key="{7CEF9953-3E5F-4768-BD93-C318070F60B9}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{AEFFEFB3-EFFC-4F5D-9B24-3A3E7741FDB6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_10_QWYK_162_HUB_Request_ChangeStatus_to_Close" key="{6EE22EB5-4C08-4CF3-BCA2-399FA58B1981}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{1F57ADB9-C34B-4DD6-A6D0-4D21FF764E12}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
@@ -61,7 +61,7 @@
 			</testItem>
 			<testItem name="TC_12_QWYK_146_Portal_QuotationLCL_Requested" key="{DAB69EAC-95C9-4854-97EF-B5CF9C087A53}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{2DEFE87B-71D0-4222-A69B-EC1A20902903}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_13_QWYK_149_Portal_QuotationFTL_Buyer_Requested" key="{1E256D92-A841-495E-A201-9852D172F45B}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{B6EB28FE-C7B6-43E3-A08B-5209383F9AD3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
@@ -71,12 +71,12 @@
 			</testItem>
 			<testItem name="TC_14_QWYK_150_Portal_Quotation_LTL_SellerRequested_Status" key="{76652A36-7774-4E77-843A-72D5B05859C2}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{330BA411-AB18-4BA7-83D6-FE66D3B2B574}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_15_QWYK_152_Portal_QuotationAIR_Buyer__Requested" key="{B6FA3D6A-1600-4D35-B42C-5982E643041C}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{0D85D1AA-1262-4403-BFD8-E4B56FD84B0C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_16_QWYK_283_Hub_ShipmentsMagaya_NOIntegration" key="{5F6CA291-8DD6-407D-AAD7-3100BD6FE082}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{472D9703-4AC1-428D-BFCD-54D1CE0AD18A}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
@@ -106,12 +106,12 @@
 			</testItem>
 			<testItem name="TC_QWYK_3072_CustomFieldsTableView_WH" key="{12FEEBFD-284D-4E54-B4FC-F1595B894023}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{E0751C46-BC0D-4E18-AED1-BFAD81493485}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_QWYK_9616_NotificationsVerifyPaginationAndPageSize" key="{19B941A8-A3AA-4F16-A91D-4A9247F54B96}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{A41E945D-0684-40C7-97BD-1817B616A5BE}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
@@ -222,6 +222,9 @@
 					<DefValue />
 				</Variable>
 				<Variable Name="firstNotiLastPage" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="now" Type="String" Local="False">
 					<DefValue />
 				</Variable>
 			</Items>

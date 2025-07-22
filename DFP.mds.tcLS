@@ -113,6 +113,9 @@
 					<Node name="var34">
 						<Prp name="name" type="S" value="firstNotiLastPage"/>
 					</Node>
+					<Node name="var35">
+						<Prp name="name" type="S" value="now"/>
+					</Node>
 					<Node name="var4">
 						<Prp name="name" type="S" value="email_quote"/>
 					</Node>

@@ -11925,7 +11925,6 @@
 					<Child Name="textnodePortalUsers" Owner="{C5BB3043-B07F-43D0-B135-D0F94267720C}" />
 					<Child Name="textnodeUserApprovals" Owner="{52158E37-1542-4607-804F-4747B9CC30CA}" />
 					<Child Name="linkQuotationRequests" Owner="{83939A1A-D74E-48E7-90E0-59D8D2EFD008}" />
-					<Child Name="linkRecentNotifications" Owner="{B3FFE6A2-57B6-422F-A4FF-F09F85DD9B06}" />
 					<Child Name="textnodeYourSites" Owner="{867C3BB7-9874-4496-88D6-D1725AF61557}" />
 					<Child Name="textnodeAylinStaging" Owner="{5BC56467-BC94-44A0-90ED-1D098A8D8C01}">
 						<Child Name="textnodeAylinStaging2" Owner="{073DCF1A-4D39-4E15-A99B-E75EA2732D26}" />
@@ -12037,6 +12036,7 @@
 			<Child Name="pageCallback" Owner="{15ED1B68-46A8-4BD7-9D84-2887A0DE4F35}" />
 			<Child Name="textnode" Owner="{5425C0D1-3421-4ACD-9D18-E87F25EF5BB3}" />
 			<Child Name="textnodeTable" Owner="{1D92DC9D-E5AA-4CFE-838B-2AB2EFC5D7C3}" />
+			<Child Name="linkRecentNotifications" Owner="{B3FFE6A2-57B6-422F-A4FF-F09F85DD9B06}" />
 		</Child>
 		<Child Name="explorer" Owner="{2B5F5DD0-6C6A-4C01-8392-67C38AED2AF7}">
 			<Child Name="wndShell_TrayWnd" Owner="{910C0DAB-BCCB-4418-ABBD-27987DB9B5B5}">

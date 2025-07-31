@@ -1,11 +1,13 @@
-﻿function openLastDownloadedFile(downloadFolder) {
+﻿function openLastDownloadedFile() {
   // Delay to ensure file download is complete
   Delay(10000);
 
   var fso = Sys.OleObject("Scripting.FileSystemObject");
 
-  // Use the provided folder path, or default to the user's Downloads folder
-  downloadFolder = downloadFolder || "C:\\Users\\DefaultUser\\Downloads";
+  // Get the user's home directory from environment variables
+  var shell = Sys.OleObject("WScript.Shell");
+  var homeFolder = shell.ExpandEnvironmentStrings("%USERPROFILE%");
+  var downloadFolder = homeFolder + "\\Downloads";
 
   // Check if the Downloads folder exists
   if (!fso.FolderExists(downloadFolder)) {
@@ -33,17 +35,16 @@
   if (latestFile) {
     Log.Message("The most recent file is: " + latestFile.Name);
 
-    // Construct full path to the file
-    var filePath = downloadFolder + "\\" + latestFile.Name;
+    // Construct full path to the PDF
+    var pdfPath = downloadFolder + "\\" + latestFile.Name;
 
     // Check if the latest file is a PDF
-    if (aqFileSystem.GetFileExtension(filePath).toLowerCase() === "pdf") {
+    if (aqFileSystem.GetFileExtension(pdfPath).toLowerCase() === "pdf") {
       // Open the PDF file using the default PDF viewer
-      var shell = Sys.OleObject("WScript.Shell");
-      shell.Run('"' + filePath + '"');  // Open the PDF file
+      shell.Run('"' + pdfPath + '"');  // Open the PDF file
 
       // Convert the PDF content to text
-      var contents = PDF.ConvertToText(filePath);
+      var contents = PDF.ConvertToText(pdfPath);
 
       if (contents !== "") {
         // Variables to search for

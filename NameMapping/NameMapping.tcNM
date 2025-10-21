@@ -10720,6 +10720,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonRequestADifferentRate" Key="{C1077280-5376-4914-ADFD-EDDE49F156A1}">
+										<Image FileName="-1161404780" Left="149" Top="336" Right="297" Bottom="364" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Request a different rate&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-quotation-result//div//button[contains(@class, &apos;btn-outline-secondary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="page38442DfpstagMagayaprodAutoma2" Key="{4D6AF3A7-E276-4882-BBAF-64B8FC0B2D0F}">
@@ -12179,6 +12191,7 @@
 						<Child Name="textareaQuotationRemarks" Owner="{2D9A31F6-AB7C-4B01-BB71-B8991FBCB435}" />
 					</Child>
 				</Child>
+				<Child Name="buttonRequestADifferentRate" Owner="{C1077280-5376-4914-ADFD-EDDE49F156A1}" />
 			</Child>
 			<Child Name="page38442DfpstagMagayaprodAutoma2" Owner="{4D6AF3A7-E276-4882-BBAF-64B8FC0B2D0F}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu4" Owner="{8B337489-178F-46D0-B36D-28D0840AA9D8}">
